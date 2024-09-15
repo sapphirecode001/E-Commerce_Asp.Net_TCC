@@ -1,7 +1,12 @@
+using Site_SmartComfort.Repository;
+using Site_SmartComfort.Repository.Contract;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 
 var app = builder.Build();
 

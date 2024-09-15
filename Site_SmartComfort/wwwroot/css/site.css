@@ -41,4 +41,42 @@ body {
     background-color: #9DC6EA;
     opacity: 90%; 
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.pesqui input {
+    width: 85%;
+    height: 4vh;
+    border-radius: 10px;
+    border-right: none;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+::placeholder {
+    font-size: 18px;
+}
+
+.pesqui .btnpesq {
+    width: 15%;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
+    border-left: 1px solid black;
+    height: 5vh;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnpesq img {
+    width: 35px;
 }

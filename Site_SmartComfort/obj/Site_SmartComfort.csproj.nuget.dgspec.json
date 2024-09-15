@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj": {}
+    "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj": {
+    "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
+        "projectUniqueName": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
         "projectName": "Site_SmartComfort",
-        "projectPath": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
-        "packagesPath": "C:\\Users\\3jd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\obj\\",
+        "projectPath": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
+        "packagesPath": "C:\\Users\\JEAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\3jd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JEAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,16 +34,21 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
