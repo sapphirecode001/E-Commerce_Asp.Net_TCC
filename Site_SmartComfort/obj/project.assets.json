@@ -9923,19 +9923,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JEAN\\.nuget\\packages\\": {}
+    "C:\\Users\\3mod\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
+      "projectUniqueName": "C:\\Users\\3mod\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
       "projectName": "Site_SmartComfort",
-      "projectPath": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
-      "packagesPath": "C:\\Users\\JEAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\obj\\",
+      "projectPath": "C:\\Users\\3mod\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
+      "packagesPath": "C:\\Users\\3mod\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\3mod\\Desktop\\asp\\Site_SmartComfort\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\JEAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\3mod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9943,6 +9948,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9989,7 +9995,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
