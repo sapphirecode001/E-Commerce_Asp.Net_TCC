@@ -35,3 +35,4 @@ function autoTroca() {
 }
 
 setInterval(autoTroca, 5000);
+

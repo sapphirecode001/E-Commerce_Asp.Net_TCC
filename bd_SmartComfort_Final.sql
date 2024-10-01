@@ -4,16 +4,17 @@ create database dbSmartComfort;
 use dbSmartComfort;
 
 CREATE TABLE tbPJ (
-Cnpj numeric(14) PRIMARY KEY,
+IdPJ int primary key auto_increment,
+Cnpj numeric(14) not null unique,
 RazaoSocial varchar(250) not null,
 NomeResponsavel varchar(200) not null,
-IdUsu int
+IdUsu int 
 );
 
 CREATE TABLE tbPF (
-Cpf numeric(11) PRIMARY KEY,
+IdPF int primary key auto_increment,
+Cpf numeric(11) not null unique,
 NomeCompleto varchar(200) not null,
-DataNasc date not null,
 IdUsu int
 );
 
@@ -34,7 +35,7 @@ EmailUsu varchar(100) not null unique,
 SenhaUsu varchar(30) not null,
 TelefoneUsu1 numeric(11) not null,
 TelefoneUsu2 numeric(11),
-DataCadUsu date not null,
+DataCadUsu datetime default current_timestamp(),
 IdEnd int,
 FOREIGN KEY(IdEnd) REFERENCES tbEndereco (IdEnd)
 );
@@ -166,19 +167,19 @@ INSERT INTO tbEndereco (cepEnd, numeroEnd, LogradouroEnd, ComplementoEnd, IdBai,
 VALUES (87654321, 456, 'Avenida Brasil', '', 2, 2, 2);
 
 -- Inserindo usuários
-INSERT INTO tbUsuario (EmailUsu, SenhaUsu, TelefoneUsu1, TelefoneUsu2, DataCadUsu, IdEnd) 
-VALUES ('user1@example.com', 'senha123', 11987654321, NULL, '2024-09-10', 1);
+INSERT INTO tbUsuario (EmailUsu, SenhaUsu, TelefoneUsu1, TelefoneUsu2, IdEnd) 
+VALUES ('user1@example.com', 'senha123', 11987654321, NULL, 1);
 
-INSERT INTO tbUsuario (EmailUsu, SenhaUsu, TelefoneUsu1, TelefoneUsu2, DataCadUsu, IdEnd) 
-VALUES ('user2@example.com', 'senha456', 21987654321, 21912345678, '2024-09-11', 2);
+INSERT INTO tbUsuario (EmailUsu, SenhaUsu, TelefoneUsu1, TelefoneUsu2, IdEnd) 
+VALUES ('user2@example.com', 'senha456', 21987654321, 21912345678, 2);
 
 -- Inserindo clientes pessoa jurídica (PJ)
 INSERT INTO tbPJ (Cnpj, RazaoSocial, NomeResponsavel, IdUsu) 
 VALUES (12345678000199, 'Empresa XYZ Ltda', 'João Silva', 1);
 
 -- Inserindo clientes pessoa física (PF)
-INSERT INTO tbPF (Cpf, NomeCompleto, DataNasc, IdUsu) 
-VALUES (12345678901, 'Maria Oliveira', '1990-05-15', 2);
+INSERT INTO tbPF (Cpf, NomeCompleto, IdUsu) 
+VALUES (12345678901, 'Maria Oliveira', 2);
 
 -- Inserindo funcionários
 INSERT INTO tbFuncionario (DataEntradaFunc, EmailFunc, NomeFunc, SenhaFunc, CargoFunc) 
@@ -240,5 +241,6 @@ VALUES (7891234567891, 1);
 INSERT INTO tbFavoritos (CodBar, IdUsu) 
 VALUES (7899876543210, 2);
 
-
-
+select * from tbUsuario
+select * from tbPJ
+select * from tbPF

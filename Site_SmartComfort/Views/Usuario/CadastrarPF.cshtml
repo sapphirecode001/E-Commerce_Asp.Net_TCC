@@ -1,0 +1,91 @@
+﻿@model Site_SmartComfort.ViewModels.CadastroPFViewModel
+
+@{
+    ViewData["Title"] = "Cadastro Pessoa Física";
+}
+<link rel="stylesheet" href="~/css/cadastro.css">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <div class="principal">
+        <form asp-action="CadastrarPF" method="post">
+            <h2 class="title">Cadastrar</h2>
+            <div class="pf-pj">
+            </div>
+
+            <label for="usuario">Usuário</label>
+            <div class="input">
+                <i class="fas fa-user"></i>
+                <input type="text" asp-for="NomeCompleto" id="usuario" placeholder="Usuário" />
+                <span asp-validation-for="NomeCompleto" class="text-danger"></span>
+            </div>
+
+            <label for="cpf">Cpf</label>
+            <div class="input">
+                <i class="fas fa-id-card"></i>
+                <input type="text" asp-for="Cpf" id="cpf" placeholder="Cpf" />
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div>
+
+            <label for="email">Email</label>
+            <div class="input">
+                <i class="fas fa-envelope"></i>
+                <input type="email" asp-for="EmailUsu" id="email" placeholder="Email" />
+                <span asp-validation-for="EmailUsu" class="text-danger"></span>
+            </div>
+
+            <label for="telefone1">Telefone</label>
+            <div class="input">
+                <i class="fas fa-phone"></i>
+                <input type="number" asp-for="TelefoneUsu1" id="telefone1" placeholder="Telefone" />
+                <span asp-validation-for="TelefoneUsu1" class="text-danger"></span>
+            </div>
+
+            <label for="telefone2">Telefone 2</label>
+            <div class="input">
+                <i class="fas fa-phone"></i>
+                <input type="number" asp-for="TelefoneUsu2" id="telefone2" placeholder="Telefone Opcional" />
+                <span asp-validation-for="TelefoneUsu2" class="text-danger"></span>
+            </div>
+
+            <label for="senha1">Senha</label>
+            <div class="input">
+                <i class="fas fa-lock"></i>
+                <input type="password" asp-for="SenhaUsu" id="senha1" placeholder="Senha" />
+                <span asp-validation-for="SenhaUsu" class="text-danger"></span>
+            </div>
+
+            <label for="senha2">Confirmar Senha</label>
+            <div class="input">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="ConfirmarSenha" id="senha2" placeholder="Confirmar Senha" />
+                <span asp-validation-for="ConfirmarSenha" class="text-danger"></span>
+            </div>
+
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-danger">@ViewBag.Message</div>
+            }
+
+            <div class="btn">
+                <button type="submit">Cadastrar</button>
+            </div>
+            <br>
+            <div class="api">
+                <button><img src="gmail.webp" alt=""></button>
+            </div>
+            <div class="pj">
+                <label>Pessoa Juridica? <a href="cadastropj.html">Clique aqui</a></label>
+            </div>
+        </form>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
