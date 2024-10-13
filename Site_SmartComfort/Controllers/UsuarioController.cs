@@ -42,6 +42,14 @@ namespace Site_SmartComfort.Controllers
             }
         }
 
+<<<<<<< HEAD
+=======
+        public IActionResult Perfil()
+        {
+            return View();
+        }
+
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
         // Ação para exibir a página de cadastro de Pessoa Física
         public IActionResult CadastrarPF()
         {

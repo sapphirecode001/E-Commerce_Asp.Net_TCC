@@ -9923,11 +9923,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\JEAN\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Kevin\\.nuget\\packages\\": {}
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
       "projectName": "Site_SmartComfort",
       "projectPath": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
@@ -9936,6 +9941,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JEAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Site_SmartComfort.csproj",
+      "projectName": "Site_SmartComfort",
+      "projectPath": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Site_SmartComfort.csproj",
+      "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9943,6 +9958,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+        "C:\\Program Files\\dotnet\\library-packs": {},
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9955,6 +9974,14 @@
         "warnAsError": [
           "NU1605"
         ]
+<<<<<<< HEAD
+=======
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
       }
     },
     "frameworks": {
@@ -9989,7 +10016,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
       }
     }
   }

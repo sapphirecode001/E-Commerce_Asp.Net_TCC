@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\kevin\\desktop\\kevin\\exporta\u00E7\u00E3o tcc\\e-commerce_asp.net_tcc-main\\e-commerce_asp.net_tcc-main\\site_smartcomfort\\wwwroot\\css\\produto.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\wwwroot\\css\\produto.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\kevin\\desktop\\kevin\\exporta\u00E7\u00E3o tcc\\e-commerce_asp.net_tcc-main\\e-commerce_asp.net_tcc-main\\site_smartcomfort\\views\\produto\\produto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\views\\produto\\produto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\kevin\\desktop\\kevin\\exporta\u00E7\u00E3o tcc\\e-commerce_asp.net_tcc-main\\e-commerce_asp.net_tcc-main\\site_smartcomfort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\kevin\\desktop\\kevin\\exporta\u00E7\u00E3o tcc\\e-commerce_asp.net_tcc-main\\e-commerce_asp.net_tcc-main\\site_smartcomfort\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\kevin\\desktop\\kevin\\exporta\u00E7\u00E3o tcc\\e-commerce_asp.net_tcc-main\\e-commerce_asp.net_tcc-main\\site_smartcomfort\\views\\produto\\indexprodutos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\views\\produto\\indexprodutos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\kevin\\desktop\\kevin\\exporta\u00E7\u00E3o tcc\\e-commerce_asp.net_tcc-main\\e-commerce_asp.net_tcc-main\\site_smartcomfort\\wwwroot\\css\\perfil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\wwwroot\\css\\perfil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\kevin\\desktop\\kevin\\exporta\u00E7\u00E3o tcc\\e-commerce_asp.net_tcc-main\\e-commerce_asp.net_tcc-main\\site_smartcomfort\\views\\usuario\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\views\\usuario\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "produto.css",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\produto.css",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\wwwroot\\css\\produto.css",
+              "ToolTip": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\produto.css",
+              "RelativeToolTip": "Site_SmartComfort\\wwwroot\\css\\produto.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-13T03:49:30.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Views\\Produto\\Produto.cshtml",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\Views\\Produto\\Produto.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Views\\Produto\\Produto.cshtml",
+              "RelativeToolTip": "Site_SmartComfort\\Views\\Produto\\Produto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T03:49:24.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IndexProdutos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Views\\Produto\\IndexProdutos.cshtml",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\Views\\Produto\\IndexProdutos.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Views\\Produto\\IndexProdutos.cshtml",
+              "RelativeToolTip": "Site_SmartComfort\\Views\\Produto\\IndexProdutos.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T03:07:47.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Site_SmartComfort\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswCUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T21:58:06.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "Site_SmartComfort\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAH0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-12T21:55:17.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Perfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Views\\Usuario\\Perfil.cshtml",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\Views\\Usuario\\Perfil.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Views\\Usuario\\Perfil.cshtml",
+              "RelativeToolTip": "Site_SmartComfort\\Views\\Usuario\\Perfil.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T21:54:46.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "perfil.css",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\perfil.css",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\wwwroot\\css\\perfil.css",
+              "ToolTip": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exporta\u00E7\u00E3o TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\perfil.css",
+              "RelativeToolTip": "Site_SmartComfort\\wwwroot\\css\\perfil.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-12T21:51:39.2Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

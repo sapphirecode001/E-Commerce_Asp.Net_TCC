@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+<<<<<<< HEAD
 body{
     background-color: #F1F1F1;
     
@@ -10,6 +11,14 @@ body{
 
 /*imagem do carrosel na tela*/
 #carrosel { 
+=======
+body {
+    background-color: #F1F1F1;
+}
+
+/*imagem do carrosel na tela*/
+#carrosel {
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
     position: absolute;
     top: 0;
     left: 0;
@@ -38,6 +47,10 @@ body{
     margin-left: 1vw;
     z-index: 1;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
     .btn_carrosel:hover,
     .btn_carrosel.ativo {
         background-color: #184DAB;
@@ -61,7 +74,11 @@ body{
     margin-bottom: 20px;
     font-size: 24px;
     color: #184DAB; /* Title color */
+<<<<<<< HEAD
     font-weight: bold; 
+=======
+    font-weight: bold;
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
 }
 
 .form-group {
@@ -69,6 +86,7 @@ body{
     text-align: left;
 }
 
+<<<<<<< HEAD
 .form-group label {
     display: block;
     margin-bottom: 5px;
@@ -81,6 +99,20 @@ body{
     border-radius: 4px;
     box-sizing: border-box;
 }
+=======
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group input {
+        width: calc(100% - 20px);
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
 
 .submit-btn {
     width: 100%;
@@ -93,9 +125,15 @@ body{
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .submit-btn:hover {
     background-color: #143c82; /* Darker shade for hover effect */
 }
+=======
+    .submit-btn:hover {
+        background-color: #143c82; /* Darker shade for hover effect */
+    }
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
 
 p {
     margin-top: 15px; /* Paragraph text color */
@@ -106,9 +144,15 @@ p {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .signup-link:hover {
     text-decoration: underline;
 }
+=======
+    .signup-link:hover {
+        text-decoration: underline;
+    }
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
 
 
 
@@ -120,6 +164,7 @@ p {
     margin-top: 4vw;
     align-items: center;
 }
+<<<<<<< HEAD
 .icone_produto {
     width: 70px;
     margin: 1vw;
@@ -133,6 +178,23 @@ p {
     border-radius: 60%;
     cursor: pointer;
     text-align: center;
+=======
+
+.fundo_opcao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo_opcao img {
+        width: 200px;
+        height: 200px;
+        background: #184DAB;
+        border-radius: 100%;
+        cursor: pointer;
+        text-align: center;
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
 }
 
 .icone_seta {
@@ -142,13 +204,22 @@ p {
 }
 
 .icone_pacote {
+<<<<<<< HEAD
     width: 268px;
     height: 173px;
+=======
+    width: 402px;
+    height: 259.5px;
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
     cursor: pointer;
     margin-top: 4vw;
 }
 
+<<<<<<< HEAD
 .nome_produto{
+=======
+.nome_produto {
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
     margin-top: 0.5vw;
     font-size: 14px;
 }
@@ -157,13 +228,20 @@ p {
     display: flex;
     justify-content: space-between;
     margin-top: 1vw;
+<<<<<<< HEAD
     align-items:center;
 }
+=======
+    align-items: center;
+}
+
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
 .titulo_produto {
     margin-top: 6vw;
     font-size: 30px;
     color: #184DAB;
 }
+<<<<<<< HEAD
 .fundo_solo {
     cursor: pointer;
     text-align: center;
@@ -173,11 +251,29 @@ p {
     box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
+=======
+
+.fundo_solo {
+    cursor: pointer;
+    text-align: center;
+    width: 245px;
+    height: 360px;
+    background: #FFFFFF;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
 .icone_produto_solo {
     margin-top: 1vw;
     width: 110px;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .preco{
     margin-top: 1vw;
     font-size: 30px;
@@ -188,3 +284,56 @@ p {
     text-align:center;
     width: 95%;
 }
+=======
+
+.preco {
+    margin-top: 1vw;
+    font-size: 30px;
+}
+
+.desc {
+    margin-top: 1vw;
+    font-size: 17px;
+    text-align: center;
+    width: 95%;
+}
+
+.seta-mobile {
+    display: none;
+}
+
+.body2 {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .body2 {
+        display: block;
+    }
+
+    .controller {
+        display: none;
+    }
+
+    .fundo_opcao img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .icone_pacote {
+        width: 268px;
+        height: 173px;
+    }
+
+    #produtos1 {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .icone_pacote {
+        width: 352px;
+        height: 230.5px;
+    }
+}
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
