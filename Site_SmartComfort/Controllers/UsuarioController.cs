@@ -42,6 +42,17 @@ namespace Site_SmartComfort.Controllers
             }
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        public IActionResult Perfil()
+        {
+            return View();
+        }
+
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
         // Ação para exibir a página de cadastro de Pessoa Física
         public IActionResult CadastrarPF()
         {
@@ -93,11 +104,14 @@ namespace Site_SmartComfort.Controllers
             return View();
         }
 
+<<<<<<< HEAD
         public IActionResult Perfil()
         {
             return View();
         }
 
+=======
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
         // Ação para processar o cadastro de um novo usuário Pessoa Jurídica
         [HttpPost]
         public IActionResult CadastrarPJ(CadastroPJViewModel model)

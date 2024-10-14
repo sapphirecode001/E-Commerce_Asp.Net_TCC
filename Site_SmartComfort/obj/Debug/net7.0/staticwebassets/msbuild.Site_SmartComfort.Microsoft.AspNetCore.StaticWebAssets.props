@@ -16,6 +16,11 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\cadastro.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\cadastroPJ.css))">
       <SourceType>Package</SourceType>
       <SourceId>Site_SmartComfort</SourceId>
@@ -32,6 +37,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\cadastroPJ.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\favoritos.css))">
       <SourceType>Package</SourceType>
       <SourceId>Site_SmartComfort</SourceId>
@@ -48,6 +57,11 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\favoritos.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\perfil.css))">
       <SourceType>Package</SourceType>
       <SourceId>Site_SmartComfort</SourceId>
@@ -64,6 +78,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\perfil.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\produto.css))">
       <SourceType>Package</SourceType>
       <SourceId>Site_SmartComfort</SourceId>
@@ -144,6 +162,11 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\botao-voltar.png))">
       <SourceType>Package</SourceType>
       <SourceId>Site_SmartComfort</SourceId>
@@ -160,6 +183,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\botao-voltar.png))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\carrinho.png))">
       <SourceType>Package</SourceType>
       <SourceId>Site_SmartComfort</SourceId>
@@ -240,6 +267,11 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\corazao.png))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\edit-247.png))">
       <SourceType>Package</SourceType>
       <SourceId>Site_SmartComfort</SourceId>
@@ -272,6 +304,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\icons8-pesquisar-100.png))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\login.png))">
       <SourceType>Package</SourceType>
       <SourceId>Site_SmartComfort</SourceId>
@@ -432,12 +468,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\produtos\seta_esquerda.png))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\perfil.js))">
+=======
+<<<<<<< HEAD
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\Perfil.js))">
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       <SourceType>Package</SourceType>
       <SourceId>Site_SmartComfort</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Site_SmartComfort</BasePath>
+<<<<<<< HEAD
       <RelativePath>js/perfil.js</RelativePath>
+=======
+      <RelativePath>js/Perfil.js</RelativePath>
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -446,8 +492,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< HEAD
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\perfil.js))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\Perfil.js))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>
       <SourceId>Site_SmartComfort</SourceId>

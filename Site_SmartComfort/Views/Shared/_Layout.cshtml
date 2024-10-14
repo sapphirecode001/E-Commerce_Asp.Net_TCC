@@ -11,9 +11,21 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" id="cabecalho">
+<<<<<<< HEAD
             <div class="pesqui">
                 <input type="text" placeholder="Busque na Smart Comfort...">
                 <button class="btnpesq"><img src="~/img/icons8-pesquisar-100.png" alt=""></button>
+=======
+<<<<<<< HEAD
+            <div>
+                <input type="text" placeholder="Busque na Smart Comfort...">
+                <button class="btnpesq"><img src="icons8-pesquisar-100.png" alt=""></button>
+=======
+            <div class="pesqui">
+                <input type="text" placeholder="Busque na Smart Comfort...">
+                <button class="btnpesq"><img src="~/img/icons8-pesquisar-100.png" alt=""></button>
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
             </div>
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
@@ -38,11 +50,38 @@
            
                     <div class="d-flex">
                         <!-- Colocando os ícones à direita -->
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
                         <a asp-area="" asp-controller="Usuario" asp-action="Login">
                             <img class="icone" src="~/img/login.png" />
                         </a>
 
+<<<<<<< HEAD
                         <a asp-area="" asp-controller="Usuario" asp-action="Perfil">
+=======
+                        <a asp-area="" asp-controller="Home" asp-action="Privacy">
+=======
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <a asp-area="" asp-controller="Usuario" asp-action="Perfil">
+                                <img class="icone" src="~/img/login.png" />
+                            </a>
+                        }
+
+                        else
+                        {
+
+                            // Se o usuário não está autenticado, redireciona para a página de login
+                            <a asp-area="" asp-controller="Usuario" asp-action="Login">
+                                <img class="icone" src="~/img/login.png" />
+                            </a>
+                        }
+
+                        <a asp-area="" asp-controller="Usuario" asp-action="Perfil">
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
                             <img class="icone" src="~/img/carrinho.png" />
                         </a>
                     </div>
@@ -50,9 +89,17 @@
             </div>
         </nav>
     </header>
+<<<<<<< HEAD
 
 
     <div>
+=======
+<<<<<<< HEAD
+    <div class="container">
+=======
+    <div>
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -61,7 +108,14 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+<<<<<<< HEAD
     <script src="~/js/perfil.js" asp-append-version="true"></script>
+=======
+<<<<<<< HEAD
+=======
+        <script src="~/js/Perfil.js" asp-append-version="true"></script>
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

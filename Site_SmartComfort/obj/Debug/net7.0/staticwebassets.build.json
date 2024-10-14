@@ -1,6 +1,14 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "oj/lAxtu/XeYluZNt/re4uR/yfpZ/N8tbI+P+LitobQ=",
+=======
+<<<<<<< HEAD
+  "Hash": "NHDZ4Dyl31qzXC8q9BKJJJU3SPZCDp0QtLYkESOStXk=",
+=======
+  "Hash": "waxX50HgZzZq4wp2rUm6ajrjHHi/lZjOkPbVeZlM+5Y=",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
   "Source": "Site_SmartComfort",
   "BasePath": "_content/Site_SmartComfort",
   "Mode": "Default",
@@ -10,29 +18,60 @@
     {
       "Name": "Site_SmartComfort\\wwwroot",
       "Source": "Site_SmartComfort",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Site_SmartComfort.styles.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Site_SmartComfort.styles.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Site_SmartComfort.styles.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "Site_SmartComfort.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Site_SmartComfort.styles.css"
     },
     {
@@ -40,18 +79,46 @@
       "SourceId": "Site_SmartComfort",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Site_SmartComfort.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Site_SmartComfort.bundle.scp.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Site_SmartComfort.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Site_SmartComfort.bundle.scp.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "Site_SmartComfort.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Site_SmartComfort.bundle.scp.css"
     },
     {
@@ -59,13 +126,40 @@
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Site_SmartComfort.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\cadastro.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Site_SmartComfort.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\cadastro.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "css/cadastro.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -74,10 +168,23 @@
       "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\cadastroPJ.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\favoritos.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\cadastroPJ.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "css/cadastroPJ.css",
       "AssetKind": "All",
@@ -93,17 +200,33 @@
       "OriginalItemSpec": "wwwroot\\css\\cadastroPJ.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\favoritos.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\favoritos.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "css/favoritos.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -112,10 +235,23 @@
       "OriginalItemSpec": "wwwroot\\css\\favoritos.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\perfil.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\produto.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\perfil.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "css/perfil.css",
       "AssetKind": "All",
@@ -131,17 +267,33 @@
       "OriginalItemSpec": "wwwroot\\css\\perfil.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\produto.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\produto.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "css/produto.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -150,17 +302,39 @@
       "OriginalItemSpec": "wwwroot\\css\\produto.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\site.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\site.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\site.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -169,17 +343,39 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\sobre.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\sobre.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\sobre.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "css/sobre.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -188,17 +384,39 @@
       "OriginalItemSpec": "wwwroot\\css\\sobre.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\style.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\style.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\css\\style.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -207,17 +425,39 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\favicon.ico",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\favicon.ico",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\favicon.ico",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -226,10 +466,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\botao-voltar.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\carrinho.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\botao-voltar.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/botao-voltar.png",
       "AssetKind": "All",
@@ -245,17 +498,33 @@
       "OriginalItemSpec": "wwwroot\\img\\botao-voltar.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\carrinho.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\carrinho.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/carrinho.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -264,17 +533,39 @@
       "OriginalItemSpec": "wwwroot\\img\\carrinho.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\carrosel1.jpeg",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\carrosel1.jpeg",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\carrosel1.jpeg",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/carrosel1.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -283,17 +574,39 @@
       "OriginalItemSpec": "wwwroot\\img\\carrosel1.jpeg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\carrosel2.jpg",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\carrosel2.jpg",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\carrosel2.jpg",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/carrosel2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -302,17 +615,39 @@
       "OriginalItemSpec": "wwwroot\\img\\carrosel2.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\carrosel3.jpeg",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\carrosel3.jpeg",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\carrosel3.jpeg",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/carrosel3.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -321,17 +656,39 @@
       "OriginalItemSpec": "wwwroot\\img\\carrosel3.jpeg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\corazao.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\corazao.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\corazao.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/corazao.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -340,10 +697,23 @@
       "OriginalItemSpec": "wwwroot\\img\\corazao.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\edit-247.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\login.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\edit-247.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/edit-247.png",
       "AssetKind": "All",
@@ -359,10 +729,17 @@
       "OriginalItemSpec": "wwwroot\\img\\edit-247.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\icons8-pesquisar-100.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\icons8-pesquisar-100.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/icons8-pesquisar-100.png",
       "AssetKind": "All",
@@ -378,17 +755,33 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-pesquisar-100.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\login.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\login.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/login.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -397,17 +790,39 @@
       "OriginalItemSpec": "wwwroot\\img\\login.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\logo.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\logo.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\logo.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -416,17 +831,39 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\produtos\\camera.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\produtos\\camera.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\produtos\\camera.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/produtos/camera.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -435,17 +872,39 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\camera.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\produtos\\lampada.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\produtos\\lampada.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\produtos\\lampada.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/produtos/lampada.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -454,17 +913,39 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\lampada.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\produtos\\pacote.jpeg",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\produtos\\pacote.jpeg",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\produtos\\pacote.jpeg",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/produtos/pacote.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -473,17 +954,39 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\pacote.jpeg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\produtos\\porta.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\produtos\\porta.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\produtos\\porta.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/produtos/porta.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -492,17 +995,39 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\porta.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\produtos\\porteira.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\produtos\\porteira.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\produtos\\porteira.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/produtos/porteira.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -511,17 +1036,39 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\porteira.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\produtos\\roteador.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\produtos\\roteador.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\produtos\\roteador.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/produtos/roteador.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -530,17 +1077,39 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\roteador.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\produtos\\seta_direita.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\produtos\\seta_direita.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\produtos\\seta_direita.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/produtos/seta_direita.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -549,17 +1118,39 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\seta_direita.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\img\\produtos\\seta_esquerda.png",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\img\\produtos\\seta_esquerda.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\img\\produtos\\seta_esquerda.png",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "img/produtos/seta_esquerda.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -568,12 +1159,27 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\seta_esquerda.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\js\\perfil.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "js/perfil.js",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\js\\site.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\js\\Perfil.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+      "BasePath": "_content/Site_SmartComfort",
+      "RelativePath": "js/Perfil.js",
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -584,6 +1190,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\js\\perfil.js"
     },
     {
@@ -591,13 +1198,31 @@
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot\\js\\Perfil.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\js\\site.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -606,17 +1231,39 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -625,17 +1272,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -644,17 +1313,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -663,17 +1354,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -682,17 +1395,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -701,17 +1436,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -720,17 +1477,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -739,17 +1518,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -758,17 +1559,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -777,17 +1600,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -796,17 +1641,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -815,17 +1682,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -834,17 +1723,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -853,17 +1764,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -872,17 +1805,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -891,17 +1846,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -910,17 +1887,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -929,17 +1928,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -948,17 +1969,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -967,17 +2010,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -986,17 +2051,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1005,17 +2092,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1024,17 +2133,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1043,17 +2174,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1062,17 +2215,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1081,17 +2256,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1100,17 +2297,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1119,17 +2338,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1138,17 +2379,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1157,17 +2420,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1176,17 +2461,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1195,17 +2502,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1214,17 +2543,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1233,17 +2584,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1252,17 +2625,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1271,17 +2666,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1290,17 +2707,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1309,17 +2748,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1328,17 +2789,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1347,17 +2830,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1366,17 +2871,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1385,17 +2912,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1404,17 +2953,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1423,17 +2994,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1442,17 +3035,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1461,17 +3076,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1480,17 +3117,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1499,17 +3158,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1518,17 +3199,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1537,17 +3240,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1556,17 +3281,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1575,17 +3322,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1594,17 +3363,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1613,17 +3404,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1632,17 +3445,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1651,17 +3486,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
@@ -1670,17 +3527,39 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Site_SmartComfort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "Site_SmartComfort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\wwwroot\\",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "BasePath": "_content/Site_SmartComfort",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+<<<<<<< HEAD
       "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
+=======
+<<<<<<< HEAD
+=======
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",

@@ -1,8 +1,13 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
 *{
     padding: 0;
     margin: 0;
 }
 
+<<<<<<< HEAD
 .pesqui {
     display: flex;
     align-items: center;
@@ -49,6 +54,14 @@
 html {
   font-size: 14px;
 }
+=======
+html {
+  font-size: 14px;
+}
+=======
+
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
 
 @media (min-width: 768px) {
   html {
@@ -87,6 +100,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+<<<<<<< HEAD
 
 .container-fluid {
     width: 95%;
@@ -101,3 +115,74 @@ ul li a {
 ul li a:hover {
         color: #184DAB;
 }
+=======
+<<<<<<< HEAD
+
+.pesqui input {
+    width: 85%;
+    height: 4vh;
+    border-radius: 10px;
+    border-right: none;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+=======
+header {
+
+}
+.pesqui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+    .pesqui input {
+        width: 85%;
+        height: 4vh;
+        border-radius: 10px;
+        border-right: none;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        outline: none;
+        border: none;
+        font-size: 20px;
+        text-align: center;
+    }
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+
+::placeholder {
+    font-size: 18px;
+}
+
+.pesqui .btnpesq {
+    width: 15%;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
+    border-left: 1px solid black;
+<<<<<<< HEAD
+    height: 5vh;
+=======
+    height: 4vh;
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnpesq img {
+    width: 35px;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e

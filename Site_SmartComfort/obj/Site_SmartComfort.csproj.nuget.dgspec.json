@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\Site_SmartComfort.csproj": {}
   },
   "projects": {
@@ -15,6 +16,39 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+    "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
+        "projectName": "Site_SmartComfort",
+        "projectPath": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
+        "packagesPath": "C:\\Users\\JEAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JEAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Site_SmartComfort.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Site_SmartComfort.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Site_SmartComfort.csproj",
+        "projectName": "Site_SmartComfort",
+        "projectPath": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\Site_SmartComfort.csproj",
+        "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kevin\\Desktop\\Kevin\\Exportação TCC\\E-Commerce_Asp.Net_TCC-main\\E-Commerce_Asp.Net_TCC-main\\Site_SmartComfort\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +56,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
           "C:\\Program Files\\dotnet\\library-packs": {},
+=======
+<<<<<<< HEAD
+=======
+          "C:\\Program Files\\dotnet\\library-packs": {},
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +76,20 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
+<<<<<<< HEAD
+=======
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
         }
       },
       "frameworks": {
@@ -74,7 +124,15 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+=======
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> 7f2d5ee (Trazendo algumas telas e deixando responsivas)
+>>>>>>> d3cbea39cbee8d289e531c4471d5e19b01db1b3e
         }
       }
     }
