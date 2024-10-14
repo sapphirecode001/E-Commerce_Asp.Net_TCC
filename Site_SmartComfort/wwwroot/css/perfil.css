@@ -1,0 +1,453 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.controller {
+    min-height: 80vh;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.config {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .config div {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        height: 13vh;
+        gap: 30px;
+    }
+
+        .config div img {
+            width: 80px;
+        }
+
+.info {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-2 {
+    height: 60vh;
+    min-width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+.info-nome {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    gap: 10px
+}
+
+.organization {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.org-info {
+    display: flex;
+}
+
+.info-nome input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 60%;
+}
+
+.info-nome-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .info-nome-img button {
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .info-nome-img img {
+        width: 40px;
+    }
+
+
+#org p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#org input {
+    font-size: 24px;
+    color: #888888;
+}
+
+.button {
+    width: 350px;
+    height: 90px;
+    border-radius: 25px;
+    background-color: #184DAB;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    .button:hover {
+        background-color: #9DC6EA;
+        color: #184DAB;
+    }
+
+
+.modal {
+    display: none; /* Escondido por padrão */
+    position: fixed; /* Fica em cima da tela */
+    z-index: 1; /* Fica acima do conteúdo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro com transparência */
+    backdrop-filter: blur(5px); /* Borrado */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+}
+
+.modal-tudo {
+    display: none; /* Escondido por padrão */
+    position: fixed; /* Fica em cima da tela */
+    z-index: 1; /* Fica acima do conteúdo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro com transparência */
+    backdrop-filter: blur(5px); /* Borrado */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+}
+
+    .modal-tudo .tudo-tudo {
+        height: 40vh;
+        background-color: white;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 23px;
+    }
+
+    .modal-tudo .voltar {
+        width: 80%;
+        height: 10vh;
+        display: flex;
+        align-items: center; /* Alterado para center */
+        gap: 30px; /* Ajuste do gap */
+    }
+
+    .modal-tudo .org-dados {
+        height: 20vh;
+        border-radius: 23px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+
+
+.tudo {
+    width: 800px;
+    min-height: 77vh; /* Para evitar overflow */
+    overflow: auto; /* Adiciona rolagem se necessário */
+    border-radius: 23px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px; /* Adicionado um pouco de padding */
+}
+
+
+.voltar {
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    align-items: center; /* Alterado para center */
+    gap: 30px; /* Ajuste do gap */
+}
+
+    .voltar img {
+        width: 65px;
+    }
+
+    .voltar h1 {
+        font-size: 36px;
+        font-weight: 600;
+        color: #184DAB;
+    }
+
+.dados {
+    height: 57vh;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.org-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+    .org-dados div {
+        width: 90%;
+    }
+
+    .org-dados label {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .org-dados input {
+        width: 90%;
+        height: 47px;
+        background-color: #E2E2E2;
+        border: none;
+        border-radius: 5px;
+    }
+
+.btn-modal button {
+    background-color: #184DAB;
+    color: white;
+    width: 300px;
+    height: 80px;
+    border-radius: 20px;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer; /* Para indicar que é clicável */
+}
+
+.pConfig {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.pInfo {
+    color: #184DAB;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1700px) {
+    .info-2 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .info-2 {
+        width: 65%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .info {
+        gap: 10px;
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .controller {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .dados {
+        height: 55vh;
+    }
+
+    .modal {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 120vh;
+        gap: 120px;
+    }
+
+    .arroz {
+        display: none;
+    }
+
+    .config div {
+        width: 90%;
+        display: flex;
+        align-items: start;
+        height: 5vh;
+        gap: 30px;
+    }
+
+    .ConfigConta {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pConfig {
+        font-size: 27px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .pInfo {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .info-2 {
+        width: 100%;
+        gap: 50px;
+    }
+
+    .organization {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .org-info {
+        width: 90%;
+        display: flex;
+    }
+
+    .org-dados label {
+        font-size: 20px;
+    }
+
+    #org {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 1000%;
+    }
+
+        #org p {
+            font-size: 20px;
+        }
+
+        #org input {
+            font-size: 20px;
+            color: #888888;
+            text-align: start;
+            width: 100%;
+        }
+
+    .info-nome-img img {
+        width: 32px;
+    }
+
+    .button {
+        width: 250px;
+        height: 70px;
+        border-radius: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .voltar {
+        width: 100%;
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+        .voltar img {
+            width: 50px;
+        }
+
+        .voltar h1 {
+            font-size: 27px;
+            font-weight: 600;
+            color: #184DAB;
+        }
+
+    .btn-modal button {
+        width: 250px;
+        height: 70px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer; /* Para indicar que é clicável */
+    }
+
+    .tudo {
+        gap: 0px;
+        width: 93%;
+    }
+
+    @media only screen and (max-height: 800px) {
+        .controller {
+           min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+        }
+
+        .info {
+            gap: 120px;
+        }
+    }
+}

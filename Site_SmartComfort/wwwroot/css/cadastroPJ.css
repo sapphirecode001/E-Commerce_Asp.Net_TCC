@@ -1,0 +1,122 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #F1F1F1;
+}
+
+.form {
+    background: #fdfdfd;
+    border-radius: 10px;
+    width: 100%;
+    align-items: center;
+    color: #184dab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: #F1F1F1;
+}
+
+form {
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    border-radius: 22px;
+    border: 2px #000000 solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+}
+
+    .input input {
+        width: 80%;
+        border: none;
+        outline: none;
+        font-family: "Poppins", sans-serif;
+        color: #000000;
+        font-weight: bold;
+    }
+
+.btn {
+    margin-top: 10%;
+    width: 100%;
+}
+
+    .btn button {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        width: 100%;
+        border: none;
+        font-size: 1.2rem;
+        border-radius: 20px;
+        outline: none;
+        height: 40px;
+        cursor: pointer;
+        background: #184dab;
+    }
+
+.senha-container {
+    display: flex;
+}
+
+    .senha-container a {
+        text-decoration: none;
+        margin-left: 10px;
+        color: #184dab;
+    }
+
+
+.api {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .api button {
+        width: 15%;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .api img {
+        width: 100%;
+    }
+
+.pj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 15px;
+}
+
+    .pj a {
+        color: #184dab;
+    }
+
+@media only screen and (max-width: 600px) {
+    .form {
+        width: 100%;
+    }
+}

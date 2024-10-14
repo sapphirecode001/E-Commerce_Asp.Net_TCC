@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\kevin\\downloads\\e-commerce_asp.net_tcc\\e-commerce_asp.net_tcc-e5f4267342039ab35fe32589b611ed11f752963b\\site_smartcomfort\\wwwroot\\css\\perfil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\wwwroot\\css\\perfil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\kevin\\downloads\\e-commerce_asp.net_tcc\\e-commerce_asp.net_tcc-e5f4267342039ab35fe32589b611ed11f752963b\\site_smartcomfort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\kevin\\downloads\\e-commerce_asp.net_tcc\\e-commerce_asp.net_tcc-e5f4267342039ab35fe32589b611ed11f752963b\\site_smartcomfort\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Site_SmartComfort\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-13T15:42:49.195Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "perfil.css",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\perfil.css",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\wwwroot\\css\\perfil.css",
+              "ToolTip": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\wwwroot\\css\\perfil.css",
+              "RelativeToolTip": "Site_SmartComfort\\wwwroot\\css\\perfil.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-14T21:25:45.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Downloads\\E-Commerce_Asp.Net_TCC\\E-Commerce_Asp.Net_TCC-e5f4267342039ab35fe32589b611ed11f752963b\\Site_SmartComfort\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Site_SmartComfort\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T15:16:43.608Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

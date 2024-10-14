@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.pesqui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+    .pesqui input {
+        width: 85%;
+        height: 4vh;
+        border-radius: 10px;
+        border-right: none;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        outline: none;
+        border: none;
+        font-size: 20px;
+        text-align: center;
+    }
+
+::placeholder {
+    font-size: 18px;
+}
+
+.pesqui .btnpesq {
+    width: 15%;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
+    border-left: 1px solid black;
+    height: 4vh;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnpesq img {
+    width: 35px;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#logo{
+    width:130px;
+    height:60px;
+}
+
+.icone{
+    width:45px;
+    height:45px;
+    margin-left: 1vw;
+}
+
+#cabecalho {
+    background-color: #9DC6EA;
+    opacity: 90%; 
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid {
+    width: 95%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+ul li a:hover {
+        color: #184DAB;
+}

@@ -1,0 +1,96 @@
+﻿body {
+    background-image: url("../img/carrosel1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#container_fav {
+    position: absolute;
+    display: flex;
+    background-color: #ffffff;
+    width: 63%;
+    left: 19vw;
+    margin-top: 2.8vw;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 100px, 0;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    padding-bottom: 1vw;
+}
+
+#form-fav{
+    border: 1px solid #333333;
+    border-radius: 10px;
+    margin-top: 1vw;
+    width: 24%;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img_produto{
+    width: 400px;
+    height: 400px;
+}
+
+#btn_comprar {
+    background: #184DAB;
+    border-radius: 10px;
+    width: 13vw;
+    height: 2.7vw;
+    border: none;
+    color: #ffffff;
+    font-family: Helvetica, Sans-Serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#btn_carrinho {
+    background: #9DC6EA;
+    border-radius: 10px;
+    width: 13vw;
+    height: 2.7vw;
+    border: none;
+    color: #184DAB;
+    font-family: Helvetica, Sans-Serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+#preco_produto {
+    font-family: Helvetica, Sans-Serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#txt_produto {
+    font-family: Helvetica, Sans-Serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    max-width: calc(100% - 50px);
+    word-wrap: break-word;
+}
+
+.rodape {
+    background-color: #F1F1F1;
+}
+
+#head_produto{
+    align-items: center;
+    
+}
