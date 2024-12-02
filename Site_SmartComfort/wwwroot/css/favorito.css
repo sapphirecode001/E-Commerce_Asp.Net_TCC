@@ -1,0 +1,236 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.org {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.org-text {
+    width: 111.5vh; /* 1052px */
+    min-height: 93vh; /* 744px */
+    display: flex;
+    flex-direction: column;
+    gap: 2.68vh; /* 20px */
+}
+
+.fav {
+    height: 10vh;
+    display: flex;
+    align-items: end;
+    color: #184DAB;
+    font-size: 2.5vh; /* 24px */
+}
+
+.container-itens {
+    width: 100%;
+    min-height: 30.77vh; /* 230px */
+    border-radius: 2.67vh; /* 20px */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-item {
+    height: 30.77vh; /* 227.66px */
+    display: flex;
+    border-bottom: 0.13vh solid #D8D8D8; /* 1px */
+}
+
+.container-imagem {
+    width: 30.77vh; /* 230px */
+    height: 30.77vh; /* 230px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .container-imagem img {
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+    }
+
+.container-textos {
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+}
+
+.container-text {
+    font-size: 2.68vh; /* 20px */
+    font-weight: 600;
+    height: 6.71vh; /* 50px */
+    width: 95%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+    .container-text p {
+        font-size: 2.68vh; /* 20px */
+        font-weight: 600;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: calc(100% - 5.36vh); /* 40px */
+    }
+
+.container-price {
+    height: 16.07vh; /* 120px */
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 1.87vh; /* 14px */
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+h2 {
+    font-size: 3.21vh; /* 24px */
+    font-weight: 600;
+}
+
+.container-button {
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 6.71vh; /* 50px */
+    gap: 5.36vh; /* 35px */
+}
+
+    .container-button button {
+        width: 28.04vh; /* 210px */
+        height: 5.36vh; /* 40px */
+        background-color: #9dc6ea;
+        color: #184DAB;
+        font-size: 2.82vh; /* ~17px */
+        border-radius: 1.34vh; /* 10px */
+        border: none;
+        cursor: pointer;
+    }
+
+    .container-button i {
+        color: #184DAB;
+        font-size: 5.36vh; /* 40px */
+        cursor: pointer;
+    }
+
+button a {
+    text-decoration: none;
+    color: #184DAB;
+    padding: 20px 80px;
+}
+
+    button a:hover {
+        color: #184DAB;
+    }
+
+/* Responsividade */
+@media only screen and (max-width: 800px) {
+    .org-text {
+        width: 53.57vh; /* 400px */
+    }
+
+    .container-imagem {
+        width: 40%;
+        height: 28.46vh; /* 227.66px */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .container-imagem img {
+            width: 14.77vh; /* 170px */
+            height: 14.77vh; /* 170px */
+            object-fit: cover;
+        }
+
+    .container-textos {
+        width: 60%;
+    }
+
+    .container-text {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 13.39vh; /* 100px */
+    }
+
+    .container-price {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-button {
+        width: 100%;
+        gap: 0;
+        justify-content: space-around;
+    }
+
+    .container-text p {
+        font-size: 1.34vh; /* 10px */
+        white-space: normal;
+        overflow-y: auto;
+    }
+
+    .fav {
+        font-size: 1.5vh; /* 17px */
+    }
+
+    h5 {
+        font-size: 1.34vh; /* 10px */
+        font-weight: 600;
+        text-decoration: line-through;
+    }
+
+    h2 {
+        font-size: 1.87vh; /* 14px */
+        font-weight: 600;
+    }
+
+    .container-button button {
+        width: 14.73vh; /* 110px */
+        height: 3.35vh; /* 25px */
+        font-size: 1.34vh; /* 10px */
+    }
+
+    .container-button i {
+        font-size: 2.94vh; /* 22px */
+        cursor: pointer;
+    }
+}
+
+
+.payment-option button {
+    width: 120px;
+    height: 80px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+    .payment-option button:hover {
+        background-color: #e9ecef;
+    }
+
+    /* Imagens de placeholder para os botões */
+    .payment-option button img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }

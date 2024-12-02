@@ -1,0 +1,227 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-color: #F1F1F1;
+}
+
+.organizer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	color: black;
+}
+
+.login-content {
+	display: flex;
+	width: 60%;
+	height: 60vh;
+	background-color: #fff;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.login-section {
+	width: 60%;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-section h2 {
+	color: #1a73e8;
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.login-section p {
+	text-align: center;
+	font-size: 15px;
+	color: #666;
+	margin-top: 20px;
+}
+
+.login-section .clique {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 15px;
+	color: #4D81DE;
+	margin-bottom: 30px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.login-section input[type="email"],
+.login-section input[type="password"] {
+	width: 100%;
+	background-color: #E9E9E9;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.login-section .Esqueceu {
+	color: #0252bb;
+	font-size: 16px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.login-section a:hover {
+	text-decoration: underline;
+}
+
+.login-section button {
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #184DAB;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-top: 25px;
+}
+
+.login-section button:hover {
+	background-color: #166ad8;
+}
+
+.welcome-section {
+	width: 40%;
+	background-color: #184DAB;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	text-align: center;
+}
+
+.welcome-section h2 {
+	font-size: 27px;
+	margin-bottom: 10px;
+}
+
+.welcome-section p {
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+
+.welcome-section button {
+	background-color: #184DAB;
+	color: #fff;
+	border: none;
+	padding: 15px 0px;
+	font-size: 18px;
+	border-radius: 40px;
+	border: 2px solid #fff;
+	cursor: pointer;
+}
+
+.welcome-section button:hover {
+	background-color: #4D81DE;
+}
+
+	.welcome-section button a {
+		color: #fff;
+		text-decoration: none;
+		padding: 20px 80px;
+	}
+
+
+@media (max-width: 768px) {
+	.login-content {
+		width: 90%;
+		flex-direction: column;
+	}
+
+	.welcome-section, .login-section {
+		width: 100%;
+		padding: 20px;
+	}
+
+		.login-section input[type="text"],
+		.login-section input[type="email"],
+		.login-section input[type="password"] {
+			width: 80%;
+			margin-left: 10%;
+		}
+
+		.login-section .clique {
+			margin-left: 0;
+			text-align: center;
+		}
+
+		.login-section .Esqueceu {
+			margin-left: 0;
+			text-align: center;
+		}
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 480px) {
+	body {
+		padding: 10px;
+	}
+
+	.container {
+		width: 100%;
+		flex-direction: column;
+		box-shadow: none;
+	}
+
+	.login-section, .welcome-section {
+		width: 100%;
+		padding: 15px;
+		text-align: center;
+	}
+
+		.login-section h2 {
+			font-size: 24px;
+		}
+
+		.welcome-section h2 {
+			font-size: 20px;
+		}
+
+		.welcome-section p, .login-section p {
+			font-size: 12px;
+		}
+
+		.login-section input[type="text"],
+		.login-section input[type="email"],
+		.login-section input[type="password"] {
+			width: 90%;
+			gap: 30px;
+			margin: 0 auto;
+			display: block;
+		}
+
+		.welcome-section button, .login-section button {
+			padding: 8px 30px;
+			font-size: 14px;
+		}
+}
+
+

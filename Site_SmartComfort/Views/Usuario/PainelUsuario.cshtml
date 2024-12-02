@@ -1,0 +1,264 @@
+﻿@model Site_SmartComfort.Models.Usuario
+@inject Site_SmartComfort.Libraries.Login.LoginUsuario _LoginUsuario
+
+@{
+    ViewData["Title"] = "Perfil";
+}
+
+<link rel="stylesheet" href="~/css/perfil.css">
+
+<body>
+    <!-- Modal de Alteração de Senha -->
+    <form asp-action="AlterarDados" method="post">
+        <div id="modal-senha" class="modal">
+            <input type="hidden" asp-for="NomeCompleto" />
+            <input type="hidden" asp-for="Cpf" />
+            <input type="hidden" asp-for="EmailUsu" />
+            <input type="hidden" asp-for="TelefoneUsu1" />
+            <input type="hidden" asp-for="TelefoneUsu2" />
+            <div class="tudo">
+                <div class="voltar">
+                    <img src="~/img/botao-voltar.png" alt="" onclick="closeSenhaModal()" style="cursor: pointer;">
+                    <h1>Alteração de Senha: </h1>
+                </div>
+                <div class="dados">
+                    <div class="org-dados">
+                        <div>
+                            <label for="novaSenha">Nova Senha: </label>
+                        </div>
+                        <input asp-for="SenhaUsu" type="password" id="novaSenha" required>
+                    </div>
+                    <div class="org-dados">
+                        <div>
+                            <label for="confirmaSenha">Confirmar Nova Senha:</label>
+                        </div>
+                        <input asp-for="ConfirmarSenha" type="password" id="confirmaSenha" required>
+                    </div>
+                </div>
+                <div class="btn-modal">
+                    <button type="submit">Salvar Alteração</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Modal de Alteração de Nome -->
+    <form asp-action="AlterarDados" method="post">
+        <div id="modal-nome" class="modal-tudo">
+            <input type="hidden" asp-for="Cpf" />
+            <input type="hidden" asp-for="EmailUsu" />
+            <input type="hidden" asp-for="SenhaUsu" />
+            <input type="hidden" asp-for="TelefoneUsu1" />
+            <input type="hidden" asp-for="TelefoneUsu2" />
+            <div class="tudo-tudo">
+                <div class="voltar">
+                    <img src="~/img/botao-voltar.png" alt="" onclick="closeNomeModal()" style="cursor: pointer;">
+                    <h1>Alteração de Nome</h1>
+                </div>
+                <div class="org-dados">
+                    <div>
+                        <label for="senhaAtual">Novo nome de usuario:</label>
+                    </div>
+                    <input asp-for="NomeCompleto" value="@_LoginUsuario.GetUsuario().NomeCompleto" type="text" id="NovoNomeCompleto" required>
+                </div>
+                <div class="btn-modal">
+                    <button type="submit">Salvar Alteração</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Modal de Alteração de CPF -->
+    <form asp-action="AlterarDados" method="post">
+        <div id="modal-cpf" class="modal-tudo">
+            <input type="hidden" asp-for="NomeCompleto" />
+            <input type="hidden" asp-for="EmailUsu" />
+            <input type="hidden" asp-for="SenhaUsu" />
+            <input type="hidden" asp-for="TelefoneUsu1" />
+            <input type="hidden" asp-for="TelefoneUsu2" />
+            <div class="tudo-tudo">
+                <div class="voltar">
+                    <img src="~/img/botao-voltar.png" alt="" onclick="closeCPFModal()" style="cursor: pointer;">
+                    <h1>Alteração de CPF</h1>
+                </div>
+                <div class="org-dados">
+                    <div>
+                        <label for="senhaAtual">Novo CPF: </label>
+                    </div>
+                    <input asp-for="Cpf" value="@_LoginUsuario.GetUsuario().Cpf" type="text" id="NovoCpf" required>
+                </div>
+                <div class="btn-modal">
+                    <button type="submit">Salvar Alteração</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Modal de Alteração de Email -->
+    <form asp-action="AlterarDados" method="post">
+        <div id="modal-email" class="modal-tudo">
+            <input type="hidden" asp-for="NomeCompleto" />
+            <input type="hidden" asp-for="Cpf" />
+            <input type="hidden" asp-for="SenhaUsu" />
+            <input type="hidden" asp-for="TelefoneUsu1" />
+            <input type="hidden" asp-for="TelefoneUsu2" />
+            <div class="tudo-tudo">
+                <div class="voltar">
+                    <img src="~/img/botao-voltar.png" alt="" onclick="closeEmailModal()" style="cursor: pointer;">
+                    <h1>Alteração de Email</h1>
+                </div>
+                <div class="org-dados">
+                    <div>
+                        <label for="senhaAtual">Novo Email:</label>
+                    </div>
+                    <input asp-for="EmailUsu" value="@_LoginUsuario.GetUsuario().EmailUsu" type="text" id="NovoEmail" required>
+                </div>
+                <div class="btn-modal">
+                    <button type="submit">Salvar Alteração</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Modal de Alteração de Número -->
+    <form asp-action="AlterarDados" method="post">
+        <div id="modal-numero" class="modal-tudo">
+            <input type="hidden" asp-for="NomeCompleto" />
+            <input type="hidden" asp-for="Cpf" />
+            <input type="hidden" asp-for="EmailUsu" />
+            <input type="hidden" asp-for="SenhaUsu" />
+            <input type="hidden" asp-for="TelefoneUsu2" />
+            <div class="tudo-tudo">
+                <div class="voltar">
+                    <img src="~/img/botao-voltar.png" alt="" onclick="closeNumeroModal()" style="cursor: pointer;">
+                    <h1>Alteração de Número</h1>
+                </div>
+                <div class="org-dados">
+                    <div>
+                        <label for="senhaAtual">Novo número:</label>
+                    </div>
+                    <input asp-for="TelefoneUsu1" value="@_LoginUsuario.GetUsuario().TelefoneUsu1" type="text" id="NovoTelefone1" required>
+                </div>
+                <div class="btn-modal">
+                    <button type="submit">Salvar Alteração</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Modal de Alteração de Número 2 -->
+    <form asp-action="AlterarDados" method="post">
+        <div id="modal-numero2" class="modal-tudo">
+            <input type="hidden" asp-for="NomeCompleto" />
+            <input type="hidden" asp-for="Cpf" />
+            <input type="hidden" asp-for="EmailUsu" />
+            <input type="hidden" asp-for="SenhaUsu" />
+            <input type="hidden" asp-for="TelefoneUsu1" />
+            <div class="tudo-tudo">
+                <div class="voltar">
+                    <img src="~/img/botao-voltar.png" alt="" onclick="closeNumero2Modal()" style="cursor: pointer;">
+                    <h1>Alteração de Número 2</h1>
+                </div>
+                <div class="org-dados">
+                    <div>
+                        <label for="senhaAtual">Novo número:</label>
+                    </div>
+                    <input asp-for="TelefoneUsu2" value="@_LoginUsuario.GetUsuario().TelefoneUsu2" type="text" id="NovoTelefone2" required>
+                </div>
+                <div class="btn-modal">
+                    <button type="submit">Salvar Alteração</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <div class="controller">
+        <div class="config">
+            <div class="ConfigConta">
+                <button class="arroz" style="background:none; border: none; cursor: pointer;">
+                    <img src="~/img/botao-voltar.png" alt="">
+                </button>
+                <p class="pConfig">Configurações da conta</p>
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-2">
+                <p class="pInfo">Informações da conta</p>
+                <div class="organization">
+                    <div class="org-info">
+                        <div class="info-nome" id="org">
+                            <p>Nome de usuário: </p>
+                            <input type="text" id="TxtNome" disabled value="@_LoginUsuario.GetUsuario().NomeCompleto">
+                        </div>
+                        <div class="info-nome-img">
+                            <button>
+                                <img src="~/img/edit-247.png" alt="" onclick="openNomeModal()">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="org-info">
+                        <div class="info-nome" id="org">
+                            <p>CPF: </p>
+                            <input type="text" class="cpf" id="TxtCpf" disabled value="@_LoginUsuario.GetUsuario().Cpf">
+                        </div>
+                        <div class="info-nome-img">
+                            <button>
+                                <img src="~/img/edit-247.png" alt="" onclick="openCPFModal()">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="org-info">
+                        <div class="info-nome" id="org">
+                            <p>Endereço de e-mail: </p>
+                            <input type="text" value="@_LoginUsuario.GetUsuario().EmailUsu" id="TxtEmail" disabled>
+                        </div>
+                        <div class="info-nome-img">
+                            <button>
+                                <img src="~/img/edit-247.png" alt="" onclick="openEmailModal()">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="org-info">
+                        <div class="info-nome" id="org">
+                            <p>Número de telefone: </p>
+                            <input type="text" class="telefone" value="@_LoginUsuario.GetUsuario().TelefoneUsu1" id="TxtTelefone" disabled>
+                        </div>
+                        <div class="info-nome-img">
+                            <button>
+                                <img src="~/img/edit-247.png" alt="" onclick="openNumeroModal()">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="org-info">
+                        <div class="info-nome" id="org">
+                            <p>Número de telefone 2: </p>
+                            <input type="text" class="telefone" id="TxtTelefone-2" disabled value="@_LoginUsuario.GetUsuario().TelefoneUsu2">
+                        </div>
+                        <div class="info-nome-img">
+                            <button>
+                                <img src="~/img/edit-247.png" alt="" onclick="openNumero2Modal()">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="org-info">
+                        <div class="info-nome" id="org">
+                            <p>Senha: </p>
+                            <input type="password" value="@_LoginUsuario.GetUsuario().SenhaUsu" id="TxtSenha" disabled>
+                        </div>
+                        <div class="info-nome-img">
+                            <button onclick="openSenhaModal()">
+                                <img src="~/img/edit-247.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form asp-action="LogoutUsuario" method="post">
+                <div class="arrozito">
+                    <button class="button" type="submit">Sair da Conta</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>

@@ -1,0 +1,30 @@
+﻿@model Site_SmartComfort.Models.Usuario
+
+@{
+    ViewData["Title"] = "Login";
+}
+<link rel="stylesheet" href="~/css/login.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<div class="organizer">
+<div class="login-content">
+        <div class="welcome-section">
+        <h2>Olá, Seja Bem-Vindo</h2>
+        <p>Insira os dados de sua empresa <br> e comece a jornada conosco</p>
+            <button><a asp-area="" asp-controller="Usuario" asp-action="CadastrarPF">Cadastrar</a></button>
+    </div>
+    <div class="login-section">
+        <h2>
+            Faça Seu Login
+            <i class="fas fa-users"></i>
+        </h2>
+        <p>Efetue seu Login com seu Email e Senha</p>
+        <form method="post">
+            <input asp-for="EmailUsu" type="email" placeholder="Email">
+            <input asp-for="SenhaUsu" type="password" placeholder="Senha">
+            <button type="submit">Entrar</button>
+        </form><br>
+            <a class="Esqueceu" asp-controller="Usuario" asp-action="EsqueceuSenha">Esqueceu a sua Senha?</a>
+
+    </div>
+</div>
+</div>

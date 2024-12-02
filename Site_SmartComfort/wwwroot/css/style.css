@@ -1,0 +1,423 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+.organizar {
+    display: flex;
+    flex-direction: column;
+}
+
+.descer {
+    margin-top: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*imagem do carrosel na tela*/
+#carrosel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/*botoes do carrose*/
+.container_btn_carrosel {
+    position: absolute;
+    left: 51%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 1;
+    margin-top: 35%;
+}
+
+.btn_carrosel {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 1vw;
+    z-index: 1;
+}
+
+    .btn_carrosel:hover,
+    .btn_carrosel.ativo {
+        background-color: #184DAB;
+    }
+
+
+
+
+/*tela de login*/
+.login-content {
+    display: flex;
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.login-section {
+    width: 60%;
+    padding: 40px;
+}
+
+    .login-section h2 {
+        color: #1a73e8;
+        font-size: 28px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .login-section p {
+        text-align: center;
+        font-size: 12px;
+        color: #666;
+        margin-top: 20px;
+    }
+
+    .login-section .clique {
+        text-align: center;
+        font-size: 12px;
+        color: #4D81DE;
+        margin-bottom: 30px;
+        margin-left: 170px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .login-section input[type="email"],
+    .login-section input[type="password"] {
+        width: 100%;
+        background-color: #E9E9E9;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .login-section .Esqueceu {
+        color: #0252bb;
+        font-size: 14px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .login-section a:hover {
+        text-decoration: underline;
+    }
+
+    .login-section button {
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+        color: #fff;
+        background-color: #184DAB;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+
+        .login-section button:hover {
+            background-color: #166ad8;
+        }
+
+.welcome-section {
+    width: 40%;
+    background-color: #184DAB;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+    .welcome-section h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .welcome-section p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .welcome-section button {
+        background-color: #184DAB;
+        color: #fff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 16px;
+        border-radius: 40px;
+        border: 2px solid #fff;
+        cursor: pointer;
+    }
+
+        .welcome-section button:hover {
+            background-color: #4D81DE;
+        }
+
+        .welcome-section button a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+
+/*Pagina IndexProdutos:*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(/img/carrosel1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#produto {
+    display: flex;
+}
+
+.produtos1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vw;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.icone_produto {
+    width: 80.5px; /* Aumentado 15% de 70px */
+    cursor: pointer;
+}
+
+.fundo_opcao {
+    width: 149.5px; /* Aumentado 15% de 130px */
+    height: 172.5px; /* Aumentado 15% de 150px */
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid red;
+}
+
+    .fundo_opcao div {
+        width: 138px; /* Aumentado 15% de 120px */
+        height: 138px; /* Aumentado 15% de 120px */
+        border-radius: 50%;
+        background: #184DAB;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .fundo_opcao div img {
+            width: 92px; /* Aumentado 15% de 80px */
+            height: 92px; /* Aumentado 15% de 80px */
+        }
+
+.icone_seta {
+    width: 103.5px; /* Aumentado 15% de 90px */
+    margin: 1vw;
+    cursor: pointer;
+}
+
+.icone_pacote {
+    width: 369.84px; /* Aumentado 15% de 321.6px */
+    height: 238.74px; /* Aumentado 15% de 207.6px */
+    cursor: pointer;
+    margin-top: 4vw;
+}
+
+
+
+.nome_produto {
+    margin-top: 0.5vw;
+    font-size: 14px;
+}
+
+.produtos2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+    align-items: center;
+    border: 5px solid red;
+}
+
+.titulo_produto {
+    margin-top: 6vw;
+    font-size: 30px;
+    color: #184DAB;
+    text-align: center;
+}
+
+.fundo_solo {
+    cursor: pointer;
+    text-align: center;
+    width: 300px; /* Aumentado 15% de 195px */
+    height: 380px; /* Aumentado 15% de 312px */
+    background: #FFFFFF;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+
+    .fundo_solo div {
+        width: 100%;
+        height: 30px;
+    }
+
+    .fundo_solo i {
+        font-size: 30px;
+        color: red;
+        margin-left: 70%;
+        margin-top: 5%;
+    }
+
+.fas.fa-heart, .far.fa-heart {
+    transition: color 0.3s ease; /* Animação suave para mudança de cor */
+}
+
+/* Coração com borda (vacío) */
+.far.fa-heart {
+    color: #184DAB; /* Coração com borda vermelha */
+}
+
+/* Coração preenchido */
+.fas.fa-heart {
+    color: #184DAB; /* Coração preenchido */
+}
+
+.icone_produto_solo {
+    width: 164.45px; /* Aumentado 15% de 143px */
+    cursor: pointer;
+}
+
+.preco {
+    font-size: 30px;
+}
+
+.desc {
+    margin-top: 1vw;
+    font-size: 20px;
+    text-align: center;
+    width: 95%;
+    width: 100%;
+}
+
+.infos {
+    margin-top: 1vw;
+    font-size: 22px;
+    background-color: #184DAB;
+    color: white;
+    height: 5vh;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+}
+
+#button-prox {
+    width: 9.5%;
+}
+
+#button-ante {
+    width: 10%;
+}
+
+.carousel {
+    margin-top: 4vw;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #184DAB; /* Adiciona um fundo para destacar os ícones */
+    border-radius: 50%; /* Forma circular */
+}
+
+    .carousel-control-prev-icon:after,
+    .carousel-control-next-icon:after {
+        display: none; /* Remove símbolos duplicados se existirem */
+    }
+
+
+@media screen and (max-width: 600px) {
+    #button-prox {
+        width: 15%;
+    }
+
+    #button-ante {
+        width: 10%;
+    }
+
+    .carousel {
+        margin-top: 20vw;
+    }
+
+    .titulo_produto {
+        margin-top: 20vw;
+        font-size: 25px;
+        color: #184DAB;
+        text-align: center;
+    }
+
+    .row {
+        display: flex;
+        gap: 15px;
+    }
+}
+
+
+.btn_whatsapp {
+    position: fixed;
+    bottom: 20px; /* distância da parte inferior */
+    right: 20px; /* distância da lateral direita */
+    z-index: 1000; /* para garantir que fique acima de outros elementos */
+    background-color: #25D366;
+    border: none; /* remove borda, se necessário */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* sombra opcional */
+    border-radius: 50%;
+    padding: 20px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+    .btn_whatsapp img {
+        width: 60px; /* aumenta largura */
+        height: 60px; /* aumenta altura */
+        border-radius: 50%; /* torna o ícone circular */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* animações para interação */
+    }
+
+    .btn_whatsapp:hover img {
+        transform: scale(1.1); /* aumenta um pouco ao passar o mouse */
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* destaca com sombra */
+    }

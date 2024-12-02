@@ -1,0 +1,105 @@
+﻿@{
+    ViewData["Title"] = "Produto";
+}
+<link rel="stylesheet" href="~/css/produtoColab.css">
+<head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="organizar">aaa</div>
+    <!-- Modal 1 (Endereço) -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <h3>Endereço</h3>
+            <input type="text" id="cep" placeholder="Digite o CEP">
+            <input type="text" id="cidade" placeholder="Cidade" readonly>
+            <input type="text" id="bairro" placeholder="Bairro" readonly>
+            <input type="text" id="numero" placeholder="Número">
+            <br>
+            <button class="cancel" id="cancelarBtn">Cancelar</button>
+            <button id="continuarBtn">Continuar Comprando</button>
+        </div>
+    </div>
+
+    <!-- Modal 2 (Escolha a opção) -->
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <h3>Escolha uma opção</h3>
+            <div class="payment-option">
+                <!-- Aqui podem ser colocadas imagens reais de pagamento -->
+                <button id="cartaoBtn">
+                    <img src="~/img/cartão de crédito.png" alt="Cartão de Crédito">
+                </button>
+                <button id="pixBtn">
+                    <img src="~/img/pix.png" alt="">
+                </button>
+            </div>
+            <br>
+            <button class="cancel" id="cancelarBtn2">Cancelar</button>
+        </div>
+    </div>
+
+    <!-- Modal 3 (Cartão de Crédito) -->
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <h3>Informações do Cartão</h3>
+            <div class="card-info">
+                <input type="text" id="cartaoNumero" placeholder="Número do Cartão">
+                <input type="text" id="cartaoValidade" placeholder="Validade">
+                <input type="text" id="cartaoCVV" placeholder="CVV">
+            </div>
+            <br>
+            <button class="cancel" id="cancelarBtn3">Cancelar</button>
+            <button id="finalizarBtn">Finalizar Compra</button>
+            <br>
+            <button id="voltarModal2Btn">Alterar Forma de Pagamento</button>
+        </div>
+    </div>
+
+    <!-- Modal 4 (QR Code) -->
+    <div class="modal" id="modal4">
+        <div class="modal-content">
+            <h3>QR Code para Pagamento</h3>
+            <!-- Representação de um QR Code -->
+            <div class="qr-code">
+            </div>
+            <br>
+            <button class="cancel" id="cancelarBtn4">Cancelar</button>
+            <button id="voltarModal2Btn4">Alterar Forma de Pagamento</button>
+        </div>
+    </div>
+
+        <div class="organization">
+            <div class="container">
+                <div class="div-btn">
+                    <div style="width: 50px; height: 50px; border: 2px solid black; border-radius: 50%; display: flex; justify-content: center; align-items: center; background-color: black;">
+                        <i class="fas fa-arrow-left" style="color: white; font-size: 25px;"></i>
+                    </div>
+
+                </div>
+                <div class="div-image">
+                    <div>
+                        <img src="~/img/produtos/camera.png" alt="">
+                    </div>
+                </div>
+                <div class="div-info">
+                    <div class="info-text">
+                        <p></p>
+                    </div>
+                    <div class="info-preco">
+                        R$ 115,59
+                    </div>
+                    <div class="info-button">
+                        <button id="abrirModalBtn" style="font-size: 22px; background-color: #184DAB; color: white;">
+                            Comprar
+                        </button>
+                        <button style="font-size: 16px; background-color: #9DC6EA; color: #184DAB;">
+                            Adicionar ao Carrinho
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+

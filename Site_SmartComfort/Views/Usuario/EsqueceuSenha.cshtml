@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "EsqueceuSenha";
+}
+<link rel="stylesheet" href="~/css/EsqueceuSenha.css">
+<body>
+    <div class="body">
+    <div class="organizar">
+        <div class="forgot-password-container">
+            <h2>Esqueceu sua senha</h2>
+            <p>
+                Digite seu endereço de e-mail e enviaremos um link para redefinir sua senha.
+            </p>
+            <form action="#" method="post">
+                <input type="email" placeholder="Seu endereço de email" required>
+                <button type="submit">Solicitar Senha</button>
+            </form>
+            <a asp-area="" asp-controller="Usuario" asp-action="Login">Login</a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+
+

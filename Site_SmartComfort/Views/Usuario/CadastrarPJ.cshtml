@@ -1,0 +1,46 @@
+﻿@model Site_SmartComfort.Models.Usuario 
+
+@{
+    ViewData["Title"] = "Cadastro Pessoa Juridica";
+}
+    <link rel="stylesheet" href="~/css/cadastroPJ.css">
+     <!-- Link do Font Awesome para adicionar ícones -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <body>
+    <div class="organization" style="display: flex; align-items: center; justify-content: center;">
+        <div class="container">
+            <div class="login-section">
+                <h2>
+                    Crie sua Conta
+                    <i class="fas fa-building"></i>
+                </h2>
+                <p>Insira os dados abaixo para efetuar seu Cadastro</p>
+                <form method="post">
+                    <input asp-for="NomeResponsavel" type="text" placeholder="Nome Responsavél">
+                    <input asp-for="EmailUsu" type="email" placeholder="Email">
+                    <input asp-for="Cnpj" type="text" placeholder="CNPJ">
+                    <input asp-for="RazaoSocial" type="text" placeholder="Razão Social">
+                    <div>
+                        <input asp-for="TelefoneUsu1" type="text" id="tel" placeholder="Telefone">
+                        <input asp-for="TelefoneUsu2" type="text" id="tel" placeholder="Telefone 2">
+                    </div>
+                    <input asp-for="SenhaUsu" type="password" placeholder="Senha">
+                    <input asp-for="ConfirmarSenha" type="password" placeholder="Confirmar Senha">
+                    <button type="submit">Entrar</button>
+                </form>
+                <br>
+                <a class="Esqueceu" href="#">Esqueceu a sua Senha?</a>
+                
+                <p>Deseja Entrar Como Pessoa Física?</p>
+                <a class="clique" asp-controller="Usuario" asp-action="CadastrarPF">Clique Aqui</a></p>
+            </div>
+
+            <div class="welcome-section">
+                <h2>Bem Vindo de Volta!</h2>
+                <p>Para manter conosco<br>Por favor faça login com suas informações pessoais</p>
+                <button><a asp-controller="Usuario" asp-action="Login">Entrar</a></button>
+            </div>
+            </div>
+        </div>
+    </body>

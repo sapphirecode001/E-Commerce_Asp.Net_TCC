@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Site_SmartComfort.Models.Produto>
+
+@{
+    ViewData["Title"] = "Carrinho de Compras";
+    var subtotar = 0;
+}
+
+<h2>Carrinho de Compras</h2>
+
+@if (!Model.Any())
+{
+    <p>O carrinho está vazio.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Imagem</th>
+                <th>Nome</th>
+                <th>Preço Unitário</th>
+                <th>Quantidade</th>
+                <th>Subtotal</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="@item.ImgUrlPro" alt="@item.NomePro" style="width: 50px; height: 50px;" />
+                    </td>
+                    <td>@item.NomePro</td>
+                    <td>@item.PrecoPro.ToString("C")</td>
+                    <td>1</td> <!-- Atualize para a quantidade correta se necessário -->
+                    <td>@item.PrecoPro.ToString("C")</td> <!-- Multiplica o preço pela quantidade -->
+                   
+                    <td>
+                        <a asp-action="RemoverItem" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Remover</a>
+                    </td>
+                </tr>
+            }
+           
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" class="text-end"><strong>Total:</strong></td>
+                <td colspan="2">
+                    @Model.Sum(item => item.PrecoPro).ToString("C")
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form asp-action="SalvarCarrinho" method="post">
+        <button type="submit" class="btn btn-success">Finalizar Compra</button>
+    </form>
+}

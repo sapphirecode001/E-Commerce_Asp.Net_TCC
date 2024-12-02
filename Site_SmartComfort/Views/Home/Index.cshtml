@@ -1,0 +1,498 @@
+﻿@model IEnumerable<Site_SmartComfort.Models.Produto>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<link rel="stylesheet" href="~/css/style.css">
+
+<body>
+    <div class="organizar">
+        <img id="carrosel" src="~/img/carrosel1.jpeg" />
+        <div class="container_btn_carrosel">
+            <button class="btn_carrosel" onclick="troca1()"></button>
+            <button class="btn_carrosel" onclick="troca2()"></button>
+            <button class="btn_carrosel" onclick="troca3()"></button>
+        </div>
+
+        <a href="https://api.whatsapp.com/send?phone=5511999999999&text=Olá!%20Preciso%20de%20ajuda." target="_blank" class="btn_whatsapp">
+            <img width="60" height="60" src="https://img.icons8.com/officel/40/whatsapp.png" alt="whatsapp" />
+        </a>
+
+    </div>
+
+<div class="descer">
+ <div class="produtos1" id="produtos">
+
+       <div class="fundo_opcao">
+           <a href="#lampadas">
+           <div>           
+               <img class="icone_produto" src="~/img/produtos/lampada.png">
+            </div>
+                    </a>
+            <h1 class="nome_produto">Lâmpadas</h1>
+       </div>
+
+        <div class="fundo_opcao">
+            <a href="#fechaduras">
+            <div>
+            <img class="icone_produto" src="~/img/produtos/porteira.png" />
+            </div>
+            </a>
+            <h1 class="nome_produto">Fechaduras</h1>
+        </div>
+
+        <div class="fundo_opcao">
+            <a href="#cameras">
+            <div>
+            <img class="icone_produto" src="~/img/produtos/camera.png" />
+            </div>
+            </a>
+            <h1 class="nome_produto">Câmeras</h1>
+        </div>
+
+        <div class="fundo_opcao">
+            <a href="#porteiros">
+            <div>
+            <img class="icone_produto" src="~/img/produtos/porta.png" />
+            </div>
+             </a>
+            <h1 class="nome_produto">Vídeo Porteiro</h1>
+        </div>
+
+        <div class="fundo_opcao">
+            <a href="#roteadores">
+            <div>
+            <img class="icone_produto" src="~/img/produtos/roteador.png" />
+            </div>
+                    </a>
+            <h1 class="nome_produto">Roteador</h1>
+        </div>
+
+    </div>
+        <h1 class="titulo_produto" id="cameras">CAMERAS</h1>
+        <div id="destaqueCarouse" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @for (int i = 0; i < Model.Count(); i += 3)
+                {
+                    var produtosParaSlide = Model.Skip(i).Take(3);  // Pega 3 produtos por vez
+
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
+                        <div class="row">
+                            @foreach (var produto in produtosParaSlide)
+                            {
+                                <div class="col-lg-4 d-flex flex-column align-items-center">
+                                    <div class="fundo_solo">
+                                        <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                        <!-- Exibindo imagem do produto -->
+                                        <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                        <h3 class="desc">@produto.NomePro</h3>
+                                        <h1 class="preco">R$ @produto.PrecoPro</h1>
+                                        @using (Html.BeginForm("AdicionarItem", "Home", FormMethod.Post))
+                                        {
+                                            <input type="hidden" name="id" value=@produto.Id>
+                                            <input type="hidden" name="quantidade" value="1">
+                                            <button type="submit" class="btn btn-default btn-acao-primario">Adicionar</button>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <!-- Controles -->
+            <a class="carousel-control-prev" href="#destaqueCarouse" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#destaqueCarouse" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
+        <h1 class="titulo_produto" id="roteadores">ROTEADORES</h1>
+
+        <div id="destaqueCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-4 d-flex flex-column align-items-center" id="produto">
+                            <div class="fundo_solo">
+                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
+                                <h3 class="desc">Roteador Speed Dome</h3>
+                                <h1 class="preco">R$239,99</h1>
+                                <button class="infos" id="abrirModalBtn" style="">
+                                    Mais informações
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-flex flex-column align-items-center">
+                            <div class="fundo_solo">
+                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
+                                <h3 class="desc">Roteador Speed Dome</h3>
+                                <h1 class="preco">R$239,99</h1>
+                                <button class="infos" id="abrirModalBtn" style="">
+                                    Mais informações
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-flex flex-column align-items-center">
+                            <div class="fundo_solo">
+                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
+                                <h3 class="desc">Roteador Speed Dome</h3>
+                                <h1 class="preco">R$239,99</h1>
+                                <button class="infos" id="abrirModalBtn" style="">
+                                    Mais informações
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-4 d-flex flex-column align-items-center">
+                            <div class="fundo_solo">
+                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
+                                <h3 class="desc">Roteador Speed Dome</h3>
+                                <h1 class="preco">R$239,99</h1>
+                                <button class="infos" id="abrirModalBtn" style="">
+                                    Mais informações
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-flex flex-column align-items-center">
+                            <div class="fundo_solo">
+                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
+                                <h3 class="desc">Roteador Speed Dome</h3>
+                                <h1 class="preco">R$239,99</h1>
+                                <button class="infos" id="abrirModalBtn" style="">
+                                    Mais informações
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-flex flex-column align-items-center">
+                            <div class="fundo_solo">
+                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
+                                <h3 class="desc">Roteador Speed Dome</h3>
+                                <h1 class="preco">R$239,99</h1>
+                                <button class="infos" id="abrirModalBtn" style="">
+                                    Mais informações
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a id="button-ante" class="carousel-control-prev" href="#destaqueCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a id="button-prox" class="carousel-control-next" href="#destaqueCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </a>
+            </div>
+
+            <h1 class="titulo_produto" id="lampadas">LAMPADAS</h1>
+
+            <div id="destaqueCarousell" class="carousel slide">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 d-flex flex-column align-items-center" id="produto">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
+                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
+                                    <h1 class="preco">R$19,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
+                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
+                                    <h1 class="preco">R$19,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
+                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
+                                    <h1 class="preco">R$19,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
+                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
+                                    <h1 class="preco">R$19,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
+                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
+                                    <h1 class="preco">R$19,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
+                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
+                                    <h1 class="preco">R$19,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controles -->
+                <a id="button-ante" class="carousel-control-prev" href="#destaqueCarousell" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a id="button-prox" class="carousel-control-next" href="#destaqueCarousell" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </a>
+            </div>
+            <h1 class="titulo_produto" id="porteiros">VIDEO PORTEIRO</h1>
+            <div id="destaqueCarouselll" class="carousel slide">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 d-flex flex-column align-items-center" id="produto">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
+                                    <h1 class="preco">R$321,50</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
+                                    <h1 class="preco">R$321,50</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
+                                    <h1 class="preco">R$321,50</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
+                                    <h1 class="preco">R$321,50</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
+                                    <h1 class="preco">R$321,50</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
+                                    <h1 class="preco">R$321,50</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controles -->
+                <a id="button-ante" class="carousel-control-prev" href="#destaqueCarouselll" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a id="button-prox" class="carousel-control-next" href="#destaqueCarouselll" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </a>
+            </div>
+
+            <h1 class="titulo_produto" id="fechaduras">FECHADURAS ELETRONICAS</h1>
+
+            <div id="destaqueCarouselll" class="carousel slide" >
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 d-flex flex-column align-items-center" id="produto">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
+                                    <h1 class="preco">R$411,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
+                                    <h1 class="preco">R$411,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
+                                    <h1 class="preco">R$411,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
+                                    <h1 class="preco">R$411,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
+                                    <h1 class="preco">R$411,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex flex-column align-items-center">
+                                <div class="fundo_solo">
+                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
+                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
+                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
+                                    <h1 class="preco">R$411,90</h1>
+                                    <button class="infos" id="abrirModalBtn" style="">
+                                        Mais informações
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controles -->
+                <a id="button-ante" class="carousel-control-prev" href="#destaqueCarouselll" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a id="button-prox" class="carousel-control-next" href="#destaqueCarouselll" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </a>
+            </div>
+</body>

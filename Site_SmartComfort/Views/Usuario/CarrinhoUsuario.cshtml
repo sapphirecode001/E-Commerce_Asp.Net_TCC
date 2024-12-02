@@ -1,0 +1,229 @@
+﻿<link rel="stylesheet" href="~/css/carrinho.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+
+    <!-- Modal 1 (Endereço) -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <h3>Endereço</h3>
+            <input type="text" id="cep" placeholder="Digite o CEP">
+            <input type="text" id="cidade" placeholder="Cidade" readonly>
+            <input type="text" id="bairro" placeholder="Bairro" readonly>
+            <input type="text" id="numero" placeholder="Número">
+            <br>
+            <button class="cancel" id="cancelarBtn">Cancelar</button>
+            <button id="continuarBtn">Continuar Comprando</button>
+        </div>
+    </div>
+
+    <!-- Modal 2 (Escolha a opção) -->
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <h3>Escolha uma opção</h3>
+            <div class="payment-option">
+                <!-- Aqui podem ser colocadas imagens reais de pagamento -->
+                <button id="cartaoBtn">
+                    <img src="~/img/cartão de crédito.png" alt="Cartão de Crédito">
+                </button>
+                <button id="pixBtn">
+                    <img src="~/img/pix.png" alt="">
+                </button>
+            </div>
+            <br>
+            <button class="cancel" id="cancelarBtn2">Cancelar</button>
+        </div>
+    </div>
+
+    <!-- Modal 3 (Cartão de Crédito) -->
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <h3>Informações do Cartão</h3>
+            <div class="card-info">
+                <input type="text" id="cartaoNumero" placeholder="Número do Cartão">
+                <input type="text" id="cartaoValidade" placeholder="Validade">
+                <input type="text" id="cartaoCVV" placeholder="CVV">
+            </div>
+            <br>
+            <button class="cancel" id="cancelarBtn3">Cancelar</button>
+            <button id="finalizarBtn">Finalizar Compra</button>
+            <br>
+            <button id="voltarModal2Btn">Alterar Forma de Pagamento</button>
+        </div>
+    </div>
+
+    <!-- Modal 4 (QR Code) -->
+    <div class="modal" id="modal4">
+        <div class="modal-content">
+            <h3>QR Code para Pagamento</h3> 
+            <!-- Representação de um QR Code -->
+            <div class="qr-code">
+            </div>
+            <br>
+            <button class="cancel" id="cancelarBtn4">Cancelar</button>
+            <button id="voltarModal2Btn4">Alterar Forma de Pagamento</button>
+        </div>
+    </div>
+
+    <section class="h-100 h-custom" style="background: none">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12">
+                    <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                        <div class="card-body p-0">
+                            <div class="row g-0">
+                                <div class="col-lg-8">
+                                    <div class="p-5">
+                                        <div class="d-flex justify-content-between align-items-center mb-5">
+                                            <h1 class="fw-bold mb-0">Carrinho</h1>
+                                            <h6 class="mb-0 text-muted">3 itens</h6>
+                                        </div>
+                                        <hr class="my-4">
+
+                                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                            <div class="col-md-2 col-lg-2 col-xl-2">
+                                                <img src="~/img/produtos/camera.png"
+                                                     class="img-fluid rounded-3" alt="Cotton T-shirt">
+                                            </div>
+                                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                                <h6 class="text-muted">Camera</h6>
+                                                <h6 class="mb-0">Câmera Ip Icsee Hd 1080p Com Cartão De Memória 64gb. </h6>
+                                            </div>
+                                            <div class="col-md-3 col-lg-3 col-xl-2 d-flex" id="quantidade">
+
+                                                <input id="form1" min="0" name="quantity" value="1" type="text" readonly
+                                                       class="form-control form-control-sm" />
+                                                <div>
+                                                    <button class="qnt">+</button>
+                                                    <button class="qnt">-</button>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                                <h6 class="mb-0">R$ 44.00</h6>
+                                            </div>
+                                            <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                                <div>
+                                                    <i class="fas fa-trash" style="font-size: 20px; color: black;"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr class="my-4">
+
+                                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                            <div class="col-md-2 col-lg-2 col-xl-2">
+                                                <img src="~/img/produtos/camera.png"
+                                                     class="img-fluid rounded-3" alt="Cotton T-shirt">
+                                            </div>
+                                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                                <h6 class="text-muted">Camera</h6>
+                                                <h6 class="mb-0">Câmera Ip Icsee Hd 1080p Com Cartão De Memória 64gb.</h6>
+                                            </div>
+                                            <div class="col-md-3 col-lg-3 col-xl-2 d-flex" id="quantidade">
+                                                <input id="form1" min="0" name="quantity" value="1" type="text" readonly
+                                                       class="form-control form-control-sm" />
+                                                <div>
+                                                    <button class="qnt">+</button>
+                                                    <button class="qnt">-</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                                <h6 class="mb-0">R$ 44.00</h6>
+                                            </div>
+                                            <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                                <div>
+                                                    <i class="fas fa-trash" style="font-size: 20px; color: black;"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr class="my-4">
+
+                                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                            <div class="col-md-2 col-lg-2 col-xl-2">
+                                                <img src="~/img/produtos/camera.png"
+                                                     class="img-fluid rounded-3" alt="Cotton T-shirt">
+                                            </div>
+                                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                                <h6 class="text-muted">Camera</h6>
+                                                <h6 class="mb-0">Câmera Ip Icsee Hd 1080p Com Cartão De Memória 64gb.</h6>
+                                            </div>
+                                            <div class="col-md-3 col-lg-3 col-xl-2 d-flex" id="quantidade">
+                                                <input id="form1" min="0" name="quantity" value="1" type="text" readonly
+                                                       class="form-control form-control-sm" />
+                                                <div>
+                                                    <button class="qnt">+</button>
+                                                    <button class="qnt">-</button>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                                <h6 class="mb-0">R$ 44.00</h6>
+                                            </div>
+                                            <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                                <div>
+                                                    <i class="fas fa-trash" style="font-size: 20px; color: black;"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr class="my-4">
+
+                                        <div class="pt-5">
+                                            <h6 class="mb-0">
+                                                <a asp-controller="Home" asp-action="Index" class="text-body" style="text-decoration: none;">
+                                                    <i class="fas fa-long-arrow-alt-left me-2"></i>Voltar para a loja
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 bg-body-tertiary" id="controller">
+                                    <div class="p-5" id="resumo">
+                                        <h3 class="fw-bold mb-5 mt-2 pt-1">Resumo da compra</h3>
+                                        <hr class="my-4">
+
+                                        <div class="d-flex justify-content-between mb-4">
+                                            <h5 class="text-uppercase">Preço Total</h5>
+                                            <h5>R$ 132.00</h5>
+                                        </div>
+
+                                        <h5 class="text-uppercase mb-3">Código Promocional</h5>
+
+                                        <div class="mb-5">
+                                            <div data-mdb-input-init class="form-outline">
+                                                <input type="text" id="form3Examplea2" class="form-control form-control-lg" style="border: 1px solid gray;" placeholder="Digite o código promocional"/>
+                                            </div>
+                                        </div>
+
+                                        <hr class="my-4">
+
+                                        <div class="d-flex justify-content-between mb-5">
+                                            <h5 class="text-uppercase">Preço total<br/>com desconto</h5>
+                                            <h5>R$ 137.00</h5>
+                                        </div>
+
+                                        <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-block btn-lg"
+                                                data-mdb-ripple-color="dark" id="abrirModalBtn">
+                                            Comprar
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>

@@ -1,0 +1,68 @@
+﻿@model Site_SmartComfort.Models.Produto
+
+@{
+    ViewData["Title"] = "CadProduto";
+}
+
+<h1>CadProduto</h1>
+
+<h4>Produto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CadProduto">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CodBar" class="control-label"></label>
+                <input asp-for="CodBar" class="form-control" />
+                <span asp-validation-for="CodBar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NomePro" class="control-label"></label>
+                <input asp-for="NomePro" class="form-control" />
+                <span asp-validation-for="NomePro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PrecoPro" class="control-label"></label>
+                <input asp-for="PrecoPro" class="form-control" />
+                <span asp-validation-for="PrecoPro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QtdEstoquePro" class="control-label"></label>
+                <input asp-for="QtdEstoquePro" class="form-control" />
+                <span asp-validation-for="QtdEstoquePro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GarantiaPro" class="control-label"></label>
+                <input asp-for="GarantiaPro" class="form-control" />
+                <span asp-validation-for="GarantiaPro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Voltagem" class="control-label"></label>
+                <input asp-for="Voltagem" class="form-control" />
+                <span asp-validation-for="Voltagem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgUrlPro" class="control-label"></label>
+                <input asp-for="ImgUrlPro" class="form-control" />
+                <span asp-validation-for="ImgUrlPro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RefCategoria.IdCategoria" class="control-label"></label>
+                <input asp-for="RefCategoria.IdCategoria" class="form-control" />
+                <span asp-validation-for="RefCategoria.IdCategoria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

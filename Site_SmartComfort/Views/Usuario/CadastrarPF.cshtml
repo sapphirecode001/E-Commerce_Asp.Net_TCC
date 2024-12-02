@@ -1,0 +1,50 @@
+﻿@model Site_SmartComfort.Models.Usuario
+
+@{
+    ViewData["Title"] = "Cadastro Pessoa Física";
+}
+<link rel="stylesheet" href="~/css/cadastro.css">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <div class="organization">
+        <div class="container">
+        <div class="welcome-section">
+            <h2>Bem Vindo de Volta!</h2>
+            <p>Para manter conosco<br>Por favor faça login com suas informações pessoais</p>
+                <button><a asp-controller="Usuario" asp-action="Login">Entrar</a></button>
+        </div>
+            <div class="login-section">
+            <h2>Crie sua Conta  
+                <i class="fas fa-user"></i>
+            </h2>
+            <p>Insira os dados abaixo para efetuar seu Cadastro</p>
+            <form method="post">
+                    <input asp-for="NomeCompleto" type="text" placeholder="Nome Completo">
+                    <input asp-for="EmailUsu" type="email" placeholder="Email">
+                    <input asp-for="Cpf" type="text" placeholder="Cpf">
+                <div>
+                    <input asp-for="TelefoneUsu1" type="text" id="tel" placeholder="Telefone">
+                    <input asp-for="TelefoneUsu2" type="text" id="tel" placeholder="Telefone 2 (Opcional)">
+                </div>
+                    <input asp-for="SenhaUsu" type="password" placeholder="Senha">
+                    <input asp-for="ConfirmarSenha" type="password" placeholder="Confirmar Senha">
+                <button type="submit">Cadastrar</button>
+            </form>
+            <br>
+                <a class="Esqueceu" asp-controller="Usuario" asp-action="EsqueceuSenha">Esqueceu a sua Senha?</a>
+            <p>Deseja Entrar Como Pessoa Júridica?</p>
+             <a class="clique" asp-controller="Usuario" asp-action="CadastrarPJ">Clique Aqui</a></p>
+        </div>
+    </div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
