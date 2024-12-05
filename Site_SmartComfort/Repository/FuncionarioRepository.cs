@@ -34,10 +34,10 @@ namespace Site_SmartComfort.Repository
 
                 while (dr.Read())
                 {
-                    colaborador.IdFunc = (Int32)(dr["Id"]);
-                    colaborador.NomeFunc = (string)(dr["Nome"]);
-                    colaborador.EmailFunc = (string)(dr["Email"]);
-                    colaborador.SenhaFunc = (string)(dr["Senha"]);
+                    colaborador.IdFunc = Convert.ToInt32(dr["IdFunc"]);
+                    colaborador.NomeFunc = Convert.ToString(dr["NomeFunc"]);
+                    colaborador.EmailFunc = Convert.ToString(dr["EmailFunc"]);
+                    colaborador.SenhaFunc = Convert.ToString(dr["SenhaFunc"]);
                 }
                 return colaborador;
             }

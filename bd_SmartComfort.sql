@@ -173,23 +173,6 @@ VALUES (12345678901, 'Maria Oliveira', 2);
 INSERT INTO tbFuncionario (EmailFunc, NomeFunc, SenhaFunc) 
 VALUES ('func1@empresa.com', 'Carlos Souza', 'senha789');
 
--- Inserindo categorias de produtos
-INSERT INTO tbCategoria (NomeCategoria) 
-VALUES ('Iluminação');
-
-INSERT INTO tbCategoria (NomeCategoria) 
-VALUES ('Segurança');
-
--- Inserindo produtos de automação
-INSERT INTO tbProdutoAutomacao (CodBar, NomePro, PrecoPro, QtdEstoquePro, GarantiaPro, Voltagem, ImgUrlPro, IdCategoria) 
-VALUES (7891234567891, 'Lâmpada Inteligente', 99.90, 100, '2025-09-10', 110, 'https://imageurl.com/lampada', 1);
-
-INSERT INTO tbProdutoAutomacao (CodBar, NomePro, PrecoPro, QtdEstoquePro, GarantiaPro, Voltagem, ImgUrlPro, IdCategoria) 
-VALUES (7899876543210, 'Câmera de Segurança', 299.90, 50, '2026-09-10', 110,  'https://imageurl.com/camera', 1);
-
-INSERT INTO tbProdutoAutomacao (CodBar, NomePro, PrecoPro, QtdEstoquePro, GarantiaPro, Voltagem, ImgUrlPro, IdCategoria) 
-VALUES (7899876543210, 'Câmera de Segurança Original', 299.90, 50, '2026-09-10', 110,  'https://imageurl.com/camera', 1);
-
 -- Inserindo pagamentos
 INSERT INTO tbPagamento (StatusPag, MetodoPag) 
 VALUES ('Pendente', 'Cartão de Crédito');

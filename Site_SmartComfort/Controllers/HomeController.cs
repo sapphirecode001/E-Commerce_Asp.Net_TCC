@@ -17,7 +17,7 @@ namespace Site_SmartComfort.Controllers
         private LoginUsuario _loginUsuario;
 
         // Combine os dois construtores em um único
-        public HomeController(ILogger<HomeController> logger, IProdutoRepository produtoRepository, 
+        public HomeController(ILogger<HomeController> logger, IProdutoRepository produtoRepository,
             IPedidoRepository pedidoRepository, CookieCarrinhoCompra cookieCarrinhoCompra, IItemRepository itemRepository, LoginUsuario loginUsuario)
         {
             _logger = logger;
@@ -30,9 +30,18 @@ namespace Site_SmartComfort.Controllers
 
         public IActionResult Index()
         {
-            var produtos = _produtoRepository.ObterTodosProdutos();  // Obtém todos os produtos cadastrados
-            return View(produtos); // Passa os produtos para a view
+            var viewModel = new ObterProdutosPorCategoria
+            {
+                Cameras = _produtoRepository.ObterProdutosPorCategoria(1), // Produtos de câmeras
+                Roteadores = _produtoRepository.ObterProdutosPorCategoria(2), // Produtos de roteadores
+                Lampadas = _produtoRepository.ObterProdutosPorCategoria(3), // Produtos de câmeras
+                Porteiro = _produtoRepository.ObterProdutosPorCategoria(4), // Produtos de roteadores
+                Fechaduras = _produtoRepository.ObterProdutosPorCategoria(4) // Produtos de roteadores
+            };
+
+            return View(viewModel); // Retorna a View com o modelo completo
         }
+
         public IActionResult SobreNos()
         {
             return View();
@@ -47,7 +56,7 @@ namespace Site_SmartComfort.Controllers
         {
             Produto produto = _produtoRepository.ObterProduto(Id);
 
-            if(produto == null)
+            if (produto == null)
             {
                 return View("NaoExisteItem");
             }

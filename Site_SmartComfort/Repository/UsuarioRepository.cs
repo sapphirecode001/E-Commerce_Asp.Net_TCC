@@ -17,6 +17,7 @@ namespace Site_SmartComfort.Repository
             _conexaoMySQL = conf.GetConnectionString("ConexaoMySQL");
         }
 
+
         public Usuario LoginUsuario(string EmailUsu, string SenhaUsu)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))

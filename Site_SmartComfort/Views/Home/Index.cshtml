@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Site_SmartComfort.Models.Produto>
+﻿@model Site_SmartComfort.Models.ObterProdutosPorCategoria
 
 @{
     ViewData["Title"] = "Home Page";
@@ -25,73 +25,73 @@
 
     </div>
 
-<div class="descer">
- <div class="produtos1" id="produtos">
+    <div class="descer">
+        <div class="produtos1" id="produtos">
 
-       <div class="fundo_opcao">
-           <a href="#lampadas">
-           <div>           
-               <img class="icone_produto" src="~/img/produtos/lampada.png">
+            <div class="fundo_opcao">
+                <a href="#lampadas">
+                    <div>
+                        <img class="icone_produto" src="~/img/produtos/lampada.png">
+                    </div>
+                </a>
+                <h1 class="nome_produto">Lâmpadas</h1>
             </div>
-                    </a>
-            <h1 class="nome_produto">Lâmpadas</h1>
-       </div>
 
-        <div class="fundo_opcao">
-            <a href="#fechaduras">
-            <div>
-            <img class="icone_produto" src="~/img/produtos/porteira.png" />
+            <div class="fundo_opcao">
+                <a href="#fechaduras">
+                    <div>
+                        <img class="icone_produto" src="~/img/produtos/porteira.png" />
+                    </div>
+                </a>
+                <h1 class="nome_produto">Fechaduras</h1>
             </div>
-            </a>
-            <h1 class="nome_produto">Fechaduras</h1>
+
+            <div class="fundo_opcao">
+                <a href="#cameras">
+                    <div>
+                        <img class="icone_produto" src="~/img/produtos/camera.png" />
+                    </div>
+                </a>
+                <h1 class="nome_produto">Câmeras</h1>
+            </div>
+
+            <div class="fundo_opcao">
+                <a href="#porteiros">
+                    <div>
+                        <img class="icone_produto" src="~/img/produtos/porta.png" />
+                    </div>
+                </a>
+                <h1 class="nome_produto">Vídeo Porteiro</h1>
+            </div>
+
+            <div class="fundo_opcao">
+                <a href="#roteadores">
+                    <div>
+                        <img class="icone_produto" src="~/img/produtos/roteador.png" />
+                    </div>
+                </a>
+                <h1 class="nome_produto">Roteador</h1>
+            </div>
+
         </div>
-
-        <div class="fundo_opcao">
-            <a href="#cameras">
-            <div>
-            <img class="icone_produto" src="~/img/produtos/camera.png" />
-            </div>
-            </a>
-            <h1 class="nome_produto">Câmeras</h1>
-        </div>
-
-        <div class="fundo_opcao">
-            <a href="#porteiros">
-            <div>
-            <img class="icone_produto" src="~/img/produtos/porta.png" />
-            </div>
-             </a>
-            <h1 class="nome_produto">Vídeo Porteiro</h1>
-        </div>
-
-        <div class="fundo_opcao">
-            <a href="#roteadores">
-            <div>
-            <img class="icone_produto" src="~/img/produtos/roteador.png" />
-            </div>
-                    </a>
-            <h1 class="nome_produto">Roteador</h1>
-        </div>
-
-    </div>
-        <h1 class="titulo_produto" id="cameras">CAMERAS</h1>
-        <div id="destaqueCarouse" class="carousel slide" data-bs-ride="carousel">
+        <h1 class="titulo_produto" id="cameras">Câmeras</h1>
+        <div id="destaqueCarouseCameras" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                @for (int i = 0; i < Model.Count(); i += 3)
+                @for (int i = 0; i < Model.Cameras.Count(); i += 3)
                 {
-                    var produtosParaSlide = Model.Skip(i).Take(3);  // Pega 3 produtos por vez
-
+                    var produtosParaSlide = Model.Cameras.Skip(i).Take(3);
                     <div class="carousel-item @(i == 0 ? "active" : "")">
                         <div class="row">
                             @foreach (var produto in produtosParaSlide)
                             {
                                 <div class="col-lg-4 d-flex flex-column align-items-center">
                                     <div class="fundo_solo">
-                                        <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                        <!-- Exibindo imagem do produto -->
                                         <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
                                         <h3 class="desc">@produto.NomePro</h3>
                                         <h1 class="preco">R$ @produto.PrecoPro</h1>
+                                        <button class="infos">
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Mais Informações</a>
+                                        </button>
                                         @using (Html.BeginForm("AdicionarItem", "Home", FormMethod.Post))
                                         {
                                             <input type="hidden" name="id" value=@produto.Id>
@@ -105,394 +105,157 @@
                     </div>
                 }
             </div>
-
-            <!-- Controles -->
-            <a class="carousel-control-prev" href="#destaqueCarouse" role="button" data-bs-slide="prev">
+            <a class="carousel-control-prev" href="#destaqueCarouseCameras" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </a>
-            <a class="carousel-control-next" href="#destaqueCarouse" role="button" data-bs-slide="next">
+            <a class="carousel-control-next" href="#destaqueCarouseCameras" role="button" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
             </a>
         </div>
-        <h1 class="titulo_produto" id="roteadores">ROTEADORES</h1>
 
-        <div id="destaqueCarousel" class="carousel slide">
+        <h1 class="titulo_produto" id="roteadores">Roteadores</h1>
+        <div id="destaqueCarouseRoteadores" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <!-- Slide 1 -->
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-lg-4 d-flex flex-column align-items-center" id="produto">
-                            <div class="fundo_solo">
-                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
-                                <h3 class="desc">Roteador Speed Dome</h3>
-                                <h1 class="preco">R$239,99</h1>
-                                <button class="infos" id="abrirModalBtn" style="">
-                                    Mais informações
-                                </button>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 d-flex flex-column align-items-center">
-                            <div class="fundo_solo">
-                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
-                                <h3 class="desc">Roteador Speed Dome</h3>
-                                <h1 class="preco">R$239,99</h1>
-                                <button class="infos" id="abrirModalBtn" style="">
-                                    Mais informações
-                                </button>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 d-flex flex-column align-items-center">
-                            <div class="fundo_solo">
-                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
-                                <h3 class="desc">Roteador Speed Dome</h3>
-                                <h1 class="preco">R$239,99</h1>
-                                <button class="infos" id="abrirModalBtn" style="">
-                                    Mais informações
-                                </button>
-                            </div>
+                @for (int i = 0; i < Model.Roteadores.Count(); i += 3)
+                {
+                    var produtosParaSlide = Model.Roteadores.Skip(i).Take(3);
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
+                        <div class="row">
+                            @foreach (var produto in produtosParaSlide)
+                            {
+                                <div class="col-lg-4 d-flex flex-column align-items-center">
+                                    <div class="fundo_solo">
+                                        <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                        <h3 class="desc">@produto.NomePro</h3>
+                                        <h1 class="preco">R$ @produto.PrecoPro</h1>
+                                        <button class="infos">
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Mais Informações</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            }
                         </div>
                     </div>
-                </div>
-                <!-- Slide 2 -->
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-lg-4 d-flex flex-column align-items-center">
-                            <div class="fundo_solo">
-                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
-                                <h3 class="desc">Roteador Speed Dome</h3>
-                                <h1 class="preco">R$239,99</h1>
-                                <button class="infos" id="abrirModalBtn" style="">
-                                    Mais informações
-                                </button>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 d-flex flex-column align-items-center">
-                            <div class="fundo_solo">
-                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
-                                <h3 class="desc">Roteador Speed Dome</h3>
-                                <h1 class="preco">R$239,99</h1>
-                                <button class="infos" id="abrirModalBtn" style="">
-                                    Mais informações
-                                </button>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 d-flex flex-column align-items-center">
-                            <div class="fundo_solo">
-                                <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                <img class="icone_produto_solo" src="~/img/produtos/roteador.png">
-                                <h3 class="desc">Roteador Speed Dome</h3>
-                                <h1 class="preco">R$239,99</h1>
-                                <button class="infos" id="abrirModalBtn" style="">
-                                    Mais informações
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a id="button-ante" class="carousel-control-prev" href="#destaqueCarousel" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </a>
-                <a id="button-prox" class="carousel-control-next" href="#destaqueCarousel" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
-                </a>
+                }
             </div>
+            <a class="carousel-control-prev" href="#destaqueCarouseRoteadores" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#destaqueCarouseRoteadores" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
 
-            <h1 class="titulo_produto" id="lampadas">LAMPADAS</h1>
 
-            <div id="destaqueCarousell" class="carousel slide">
-                <div class="carousel-inner">
-                    <!-- Slide 1 -->
-                    <div class="carousel-item active">
+        <h1 class="titulo_produto" id="lampadas">LAMPADAS</h1>
+
+        <div id="destaqueCarouseLampadas" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @for (int i = 0; i < Model.Lampadas.Count(); i += 3)
+                {
+                    var produtosParaSlide = Model.Roteadores.Skip(i).Take(3);
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
                         <div class="row">
-                            <div class="col-lg-4 d-flex flex-column align-items-center" id="produto">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
-                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
-                                    <h1 class="preco">R$19,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
+                            @foreach (var produto in produtosParaSlide)
+                            {
+                                <div class="col-lg-4 d-flex flex-column align-items-center">
+                                    <div class="fundo_solo">
+                                        <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                        <h3 class="desc">@produto.NomePro</h3>
+                                        <h1 class="preco">R$ @produto.PrecoPro</h1>
+                                        <button class="infos">
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Mais Informações</a>
+                                        </button>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
-                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
-                                    <h1 class="preco">R$19,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
-                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
-                                    <h1 class="preco">R$19,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
+                            }
                         </div>
                     </div>
-                    <!-- Slide 2 -->
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
-                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
-                                    <h1 class="preco">R$19,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
-                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
-                                    <h1 class="preco">R$19,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/lampada.png">
-                                    <h3 class="desc">Lampada Inteligente Zinnia</h3>
-                                    <h1 class="preco">R$19,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Controles -->
-                <a id="button-ante" class="carousel-control-prev" href="#destaqueCarousell" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </a>
-                <a id="button-prox" class="carousel-control-next" href="#destaqueCarousell" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
-                </a>
+                }
             </div>
-            <h1 class="titulo_produto" id="porteiros">VIDEO PORTEIRO</h1>
-            <div id="destaqueCarouselll" class="carousel slide">
-                <div class="carousel-inner">
-                    <!-- Slide 1 -->
-                    <div class="carousel-item active">
+            <a class="carousel-control-prev" href="#destaqueCarouseLampadas" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#destaqueCarouseLampadas" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
+
+
+        <h1 class="titulo_produto" id="porteiros">VIDEO PORTEIRO</h1>
+        <div id="destaqueCarousePorteiro" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @for (int i = 0; i < Model.Porteiro.Count(); i += 3)
+                {
+                    var produtosParaSlide = Model.Porteiro.Skip(i).Take(3);
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
                         <div class="row">
-                            <div class="col-lg-4 d-flex flex-column align-items-center" id="produto">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
-                                    <h1 class="preco">R$321,50</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
+                            @foreach (var produto in produtosParaSlide)
+                            {
+                                <div class="col-lg-4 d-flex flex-column align-items-center">
+                                    <div class="fundo_solo">
+                                        <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                        <h3 class="desc">@produto.NomePro</h3>
+                                        <h1 class="preco">R$ @produto.PrecoPro</h1>
+                                        <button class="infos">
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Mais Informações</a>
+                                        </button>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
-                                    <h1 class="preco">R$321,50</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
-                                    <h1 class="preco">R$321,50</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
+                            }
                         </div>
                     </div>
-                    <!-- Slide 2 -->
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
-                                    <h1 class="preco">R$321,50</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
-                                    <h1 class="preco">R$321,50</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Vídeo Porteiro IVR 1010 Intelbras</h3>
-                                    <h1 class="preco">R$321,50</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Controles -->
-                <a id="button-ante" class="carousel-control-prev" href="#destaqueCarouselll" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </a>
-                <a id="button-prox" class="carousel-control-next" href="#destaqueCarouselll" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
-                </a>
+                }
             </div>
+            <a class="carousel-control-prev" href="#destaqueCarousePorteiro" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#destaqueCarousePorteiro" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
 
-            <h1 class="titulo_produto" id="fechaduras">FECHADURAS ELETRONICAS</h1>
+        <h1 class="titulo_produto" id="fechaduras">FECHADURAS ELETRONICAS</h1>
 
-            <div id="destaqueCarouselll" class="carousel slide" >
-                <div class="carousel-inner">
-                    <!-- Slide 1 -->
-                    <div class="carousel-item active">
+        <div id="destaqueCarouseFechaduras" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @for (int i = 0; i < Model.Fechaduras.Count(); i += 3)
+                {
+                    var produtosParaSlide = Model.Fechaduras.Skip(i).Take(3);
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
                         <div class="row">
-                            <div class="col-lg-4 d-flex flex-column align-items-center" id="produto">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
-                                    <h1 class="preco">R$411,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
+                            @foreach (var produto in produtosParaSlide)
+                            {
+                                <div class="col-lg-4 d-flex flex-column align-items-center">
+                                    <div class="fundo_solo">
+                                        <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                        <h3 class="desc">@produto.NomePro</h3>
+                                        <h1 class="preco">R$ @produto.PrecoPro</h1>
+                                        <button class="infos">
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Mais Informações</a>
+                                        </button>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
-                                    <h1 class="preco">R$411,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
-                                    <h1 class="preco">R$411,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
+                            }
                         </div>
                     </div>
-                    <!-- Slide 2 -->
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
-                                    <h1 class="preco">R$411,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
-                                    <h1 class="preco">R$411,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 d-flex flex-column align-items-center">
-                                <div class="fundo_solo">
-                                    <div><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></div>
-                                    <img class="icone_produto_solo" src="~/img/produtos/porta.png">
-                                    <h3 class="desc">Fechadura Digital de Sobrepor Touch Screen</h3>
-                                    <h1 class="preco">R$411,90</h1>
-                                    <button class="infos" id="abrirModalBtn" style="">
-                                        Mais informações
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Controles -->
-                <a id="button-ante" class="carousel-control-prev" href="#destaqueCarouselll" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </a>
-                <a id="button-prox" class="carousel-control-next" href="#destaqueCarouselll" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
-                </a>
+                }
             </div>
+            <a class="carousel-control-prev" href="#destaqueCarouseFechaduras" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#destaqueCarouseFechaduras" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
 </body>

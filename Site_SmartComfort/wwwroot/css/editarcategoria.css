@@ -1,0 +1,104 @@
+﻿/* Estilo geral */
+.frozen {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h4 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+}
+
+/* Layout */
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 83vh;
+}
+
+.col-md-4 {
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Formulário */
+.frozen form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #495057;
+}
+
+.frozen input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #495057;
+}
+
+    input[type="text"]:focus,
+    input[type="number"]:focus {
+        border-color: #80bdff;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+    }
+
+/* Botão */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #184DAB;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+/* Mensagens de validação */
+.text-danger {
+    font-size: 12px;
+    color: #dc3545;
+}
+
+/* Links */
+.frozen a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.frozen a:hover {
+    text-decoration: underline;
+}

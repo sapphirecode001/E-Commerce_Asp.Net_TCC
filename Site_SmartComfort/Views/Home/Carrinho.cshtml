@@ -2,7 +2,6 @@
 
 @{
     ViewData["Title"] = "Carrinho de Compras";
-    var subtotar = 0;
 }
 
 <h2>Carrinho de Compras</h2>
@@ -33,21 +32,23 @@ else
                     </td>
                     <td>@item.NomePro</td>
                     <td>@item.PrecoPro.ToString("C")</td>
-                    <td>1</td> <!-- Atualize para a quantidade correta se necessário -->
-                    <td>@item.PrecoPro.ToString("C")</td> <!-- Multiplica o preço pela quantidade -->
-                   
+                    <td>
+                        <button type="button" class="btn btn-secondary diminuir">-</button>
+                        <input type="number" class="inputQuantidadeProdutoCarrinho" value="@item.QtdEstoquePro" data-id="@item.Id" data-preco="@item.PrecoPro" />
+                        <button type="button" class="btn btn-secondary aumentar">+</button>
+                    </td>
+                    <td><span class="subtotal">@item.PrecoPro.ToString("C")</span></td>
                     <td>
                         <a asp-action="RemoverItem" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Remover</a>
                     </td>
                 </tr>
             }
-           
         </tbody>
         <tfoot>
             <tr>
                 <td colspan="4" class="text-end"><strong>Total:</strong></td>
                 <td colspan="2">
-                    @Model.Sum(item => item.PrecoPro).ToString("C")
+                    <span id="totalCarrinho">@Model.Sum(item => item.PrecoPro).ToString("C")</span>
                 </td>
             </tr>
         </tfoot>
@@ -56,4 +57,7 @@ else
     <form asp-action="SalvarCarrinho" method="post">
         <button type="submit" class="btn btn-success">Finalizar Compra</button>
     </form>
+
+
+    <script src="~/js/itensCarrinho.js"></script>
 }

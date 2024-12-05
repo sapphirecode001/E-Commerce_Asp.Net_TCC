@@ -92,8 +92,6 @@ namespace Site_SmartComfort.Controllers
         [HttpPost]
         public IActionResult AlterarDados(Usuario usuario)
         {
-            usuario.IdPF = _loginUsuario.GetUsuario().IdPF;
-            usuario.IdPJ = _loginUsuario.GetUsuario().IdPJ;
             _usuarioRepository.AtualizarUsuario(usuario);
             return RedirectToAction(nameof(PainelUsuario));
         }

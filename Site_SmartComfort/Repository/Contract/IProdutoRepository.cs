@@ -10,7 +10,11 @@ namespace Site_SmartComfort.Repository.Contract
        
         void AtualizarProduto(Produto produto);
 
+        IEnumerable<Produto> ObterProdutosPorCategoria(int idCategoria);
+
         void CadastrarProduto(Produto produto);
+        IEnumerable<Produto> BuscarProdutos(string termo);
+
         void Excluir(int Id);
 
     }

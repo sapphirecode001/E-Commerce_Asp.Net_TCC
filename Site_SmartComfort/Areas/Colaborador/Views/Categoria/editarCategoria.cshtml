@@ -1,0 +1,36 @@
+﻿@model Site_SmartComfort.Models.Categoria
+<link rel="stylesheet" href="~/css/editarcategoria.css">
+@{
+    ViewData["Title"] = "editarCategoria";
+}
+<div class="frozen">
+<h1>editarCategoria</h1>
+
+<h4>Categoria</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="editarCategoria">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NomeCategoria" class="control-label"></label>
+                <input asp-for="NomeCategoria" class="form-control" />
+                <span asp-validation-for="NomeCategoria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+</div>

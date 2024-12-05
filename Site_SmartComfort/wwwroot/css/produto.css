@@ -28,7 +28,6 @@
     display: flex;
     align-items: center;
     background-color: white;
-    border: 3px solid black;
 }
 
 .div-btn {
@@ -312,4 +311,10 @@
         width: 150px;
         height: 150px;
     }
+}
+
+/*BuscarProduto*/
+
+.organizarBusca {
+    min-height: 75vh;
 }

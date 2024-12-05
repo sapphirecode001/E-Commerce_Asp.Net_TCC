@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Painel";
+}
+
+<h1>Painel Colaborador</h1>
+
+<p>Informações de Usuário.</p>
+<p>Você é um Colaborador da loja.</p>
+
+Seja bem-vindo, <span>>Nome: @ViewBag.Nome </span/>
+    <p>Tipo: @ViewBag.Tipo</p>
+    <p>E-mail: @ViewBag.Email</p>
+    <a asp-controller="Produto" asp-action="CadProduto">Cadastrar Produto</a>
+<br />
+

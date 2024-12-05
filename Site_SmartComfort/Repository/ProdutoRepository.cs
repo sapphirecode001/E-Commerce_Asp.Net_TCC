@@ -85,29 +85,112 @@ namespace Site_SmartComfort.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("SELECT * FROM tbProdutoAutomacao WHERE Id = @Id", conexao);
-                cmd.Parameters.AddWithValue("@Id", id);
+                string query = @"
+            SELECT p.Id, p.CodBar, p.NomePro, p.PrecoPro, p.ImgUrlPro, 
+                   p.QtdEstoquePro, p.GarantiaPro, p.Voltagem, 
+                   c.IdCategoria, c.NomeCategoria
+            FROM tbProdutoAutomacao p
+            LEFT JOIN tbCategoria c ON p.IdCategoria = c.IdCategoria
+            WHERE p.Id = @Id";
 
-                using (var reader = cmd.ExecuteReader())
+                using (var cmd = new MySqlCommand(query, conexao))
                 {
-                    if (reader.Read())
+                    cmd.Parameters.AddWithValue("@Id", id);
+
+                    using (var reader = cmd.ExecuteReader())
                     {
-                        produto = new Produto
+                        if (reader.Read())
                         {
-                            Id = Convert.ToInt32(reader["Id"]),
-                            CodBar = Convert.ToInt64(reader["CodBar"]),
-                            NomePro = reader["NomePro"].ToString(),
-                            PrecoPro = Convert.ToDecimal(reader["PrecoPro"]),
-                            ImgUrlPro = reader["ImgUrlPro"].ToString(),
-                            QtdEstoquePro = Convert.ToInt32(reader["QtdEstoquePro"]),
-                            GarantiaPro = Convert.ToDateTime(reader["GarantiaPro"]),
-                            Voltagem = reader["Voltagem"].ToString(),
-                        };
+                            produto = new Produto
+                            {
+                                Id = Convert.ToInt32(reader["Id"]),
+                                CodBar = Convert.ToInt64(reader["CodBar"]),
+                                NomePro = reader["NomePro"].ToString(),
+                                PrecoPro = Convert.ToDecimal(reader["PrecoPro"]),
+                                ImgUrlPro = reader["ImgUrlPro"].ToString(),
+                                QtdEstoquePro = Convert.ToInt32(reader["QtdEstoquePro"]),
+                                GarantiaPro = Convert.ToDateTime(reader["GarantiaPro"]),
+                                Voltagem = reader["Voltagem"].ToString(),
+                                RefCategoria = new Categoria
+                                {
+                                    IdCategoria = Convert.ToInt32(reader["IdCategoria"]),
+                                    NomeCategoria = reader["NomeCategoria"].ToString()
+                                }
+                            };
+                        }
                     }
                 }
             }
             return produto;
         }
+
+
+        public IEnumerable<Produto> BuscarProdutos(string termo)
+        {
+            List<Produto> produtos = new List<Produto>();
+
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                conexao.Open();
+                string query = "SELECT * FROM tbProdutoAutomacao WHERE NomePro LIKE @termo";
+                using (var cmd = new MySqlCommand(query, conexao))
+                {
+                    cmd.Parameters.AddWithValue("@termo", "%" + termo + "%");
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            produtos.Add(new Produto
+                            {
+                                Id = reader.GetInt32("Id"),
+                                NomePro = reader.GetString("NomePro"),
+                                PrecoPro = reader.GetDecimal("PrecoPro"),
+                                // Adicione outros campos conforme necessário
+                            });
+                        }
+                    }
+                }
+            }
+
+            return produtos;
+        }
+
+        public IEnumerable<Produto> ObterProdutosPorCategoria(int idCategoria)
+        {
+            List<Produto> produtos = new List<Produto>();
+
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                conexao.Open();
+                string query = "SELECT * FROM tbProdutoAutomacao WHERE IdCategoria = @IdCategoria";
+                using (var cmd = new MySqlCommand(query, conexao))
+                {
+                    cmd.Parameters.AddWithValue("@IdCategoria", idCategoria);
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            produtos.Add(new Produto
+                            {
+                                Id = Convert.ToInt32(reader["Id"]),
+                                NomePro = reader["NomePro"].ToString(),
+                                PrecoPro = Convert.ToDecimal(reader["PrecoPro"]),
+                                ImgUrlPro = reader["ImgUrlPro"].ToString(),
+                                QtdEstoquePro = Convert.ToInt32(reader["QtdEstoquePro"]),
+                                GarantiaPro = Convert.ToDateTime(reader["GarantiaPro"]),
+                                Voltagem = reader["Voltagem"].ToString()
+                            });
+                        }
+                    }
+                }
+            }
+
+            return produtos;
+        }
+
+
 
         public IEnumerable<Produto> ObterTodosProdutos()
         {
@@ -127,6 +210,7 @@ namespace Site_SmartComfort.Repository
                             CodBar = Convert.ToInt64(reader["CodBar"]), // Adicionando o CodBar
                             NomePro = reader["NomePro"].ToString(),
                             PrecoPro = Convert.ToDecimal(reader["PrecoPro"]),
+
                             ImgUrlPro = reader["ImgUrlPro"].ToString(),
                             QtdEstoquePro = Convert.ToInt32(reader["QtdEstoquePro"]),
                             GarantiaPro = Convert.ToDateTime(reader["GarantiaPro"]),

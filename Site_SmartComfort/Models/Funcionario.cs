@@ -6,5 +6,6 @@
         public string NomeFunc { get; set; }
         public string EmailFunc { get; set; }
         public string SenhaFunc { get; set; }
+        public string Tipo { get; set; }
     }
 }

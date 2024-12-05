@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Site_SmartComfort.Models.Categoria>
+<link rel="stylesheet" href="~/css/listacat.css">
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="olaf">
+<div class="organizar">
+    <p>
+        <a asp-action="CadCategoria">Cadastrar Nova Categoria</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdCategoria)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NomeCategoria)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdCategoria)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NomeCategoria)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "editarCategoria", new { id = item.IdCategoria }) |
+                        @Html.ActionLink("Excluir", "Excluir", new { id = item.IdCategoria }, new { onclick = "return confirm ('Deseja realmente Excluir este item?');" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+</div>

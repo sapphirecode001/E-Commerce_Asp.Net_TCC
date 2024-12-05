@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Site_SmartComfort.Models.Produto>
+<link rel="stylesheet" href="~/css/buscarproduto.css">
+@{
+    ViewData["Title"] = "Resultados da Busca";
+}
+<div class="organizarBusca">
+<h1>Resultados da Busca</h1>
+
+@if (!Model.Any())
+{
+    <p>Nenhum produto encontrado para o termo pesquisado.</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var produto in Model)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@produto.NomePro</h5>
+                        <p class="card-text">Preço: R$ @produto.PrecoPro</p>
+                        <a href="@Url.Action("ProdutoClick", "Produto", new { id = produto.Id })" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+</div>

@@ -7,21 +7,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 80%;
 }
 
-    .pesqui input {
-        width: 85%;
-        height: 4vh;
-        border-radius: 10px;
-        border-right: none;
-        border-bottom-right-radius: 0px;
-        border-top-right-radius: 0px;
-        outline: none;
-        border: none;
-        font-size: 20px;
-        text-align: center;
-    }
+.form-inline {
+    display: flex;
+    width: 60%;
+}
+
+.pesqui input {
+    width: 85%;
+    height: 4vh;
+    border-radius: 10px;
+    border-right: none;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
 
 ::placeholder {
     font-size: 18px;
