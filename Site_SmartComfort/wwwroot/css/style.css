@@ -295,8 +295,11 @@ body {
 .fundo_solo i {
     font-size: 30px;
     color: red;
-    margin-left: 70%;
-    margin-top: 5%;
+}
+
+#btn {
+    border: 1px solid red;
+    text-align: center;
 }
 
 .fundo_solo .div-cora {
@@ -323,12 +326,6 @@ body {
     object-fit: contain;
 }
 
-    .fundo_solo i {
-        font-size: 30px;
-        color: red;
-        margin-left: 70%;
-        margin-top: 2%;
-    }
 
     .infos a {
         color: white;
@@ -338,14 +335,6 @@ body {
         color: white;
     }
 
-.fas.fa-heart, .far.fa-heart {
-    transition: color 0.3s ease; /* Animação suave para mudança de cor */
-}
-
-/* Coração com borda (vacío) */
-.far.fa-heart {
-    color: #184DAB; /* Coração com borda vermelha */
-}
 
 /* Coração preenchido */
 .fas.fa-heart {

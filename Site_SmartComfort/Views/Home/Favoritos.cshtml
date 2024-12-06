@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<Site_SmartComfort.Models.Produto>
+
+@{
     ViewData["Title"] = "Favoritos";
 }
 <link rel="stylesheet" href="~/css/favorito.css">
@@ -16,74 +18,30 @@
                 <h1><i class="fas fa-heart"></i> FAVORITOS</h1>
             </div>
             <div class="container-itens">
-                <div class="container-item">
-                    <div class="container-imagem">
-                        <img src="~/img/produtos/camera.png" alt="">
-                    </div>
-                    <div class="container-textos">
-                        <div class="container-text">
-                            <p>Câmera Ip Icsee Hd 1080p Com Cartão De Memória 64gb.</p>
+                @foreach (var produto in Model)
+                {
+                    <div class="container-item">
+                        <div class="container-imagem">
+                            <img src="@produto.ImgUrlPro" alt="">
                         </div>
-                        <div class="container-price">
-                            <h2>R$ 252,90</h2>
-                        </div>
-                        <div class="container-button">
-                            <button><a asp-controller="Produto" asp-action="Produto">Visualizar</a></button>
-                            <i class="fas fa-trash"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-item">
-                    <div class="container-imagem">
-                        <img src="~/img/produtos/camera.png" alt="">
-                    </div>
-                    <div class="container-textos">
-                        <div class="container-text">
-                            <p>Câmera Ip Icsee Hd 1080p Com Cartão De Memória 64gb.</p>
-                        </div>
-                        <div class="container-price">
-                            <h2>R$ 252,90</h2>
-                        </div>
-                        <div class="container-button">
-                            <button><a asp-controller="Produto" asp-action="Produto">Visualizar</a></button>
-                            <i class="fas fa-trash"></i>
+                        <div class="container-textos">
+                            <div class="container-text">
+                                <p>@produto.NomePro, @produto.Voltagem</p>
+                            </div>
+                            <div class="container-price">
+                                <h2>R$@produto.PrecoPro</h2>
+                            </div>
+                            <div class="container-button">
+                                <button><a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="">Visualizar</a></button>
+                                <form asp-action="RemoverFavorito" method="post">
+                                    <input type="hidden" name="Id" value="@produto.Id" />
+                                    <button type="submit">Remover</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="container-item">
-                    <div class="container-imagem">
-                        <img src="~/img/produtos/camera.png" alt="">
-                    </div>
-                    <div class="container-textos">
-                        <div class="container-text">
-                            <p>Câmera Ip Icsee Hd 1080p Com Cartão De Memória 64gb.</p>
-                        </div>
-                        <div class="container-price">
-                            <h2>R$ 252,90</h2>
-                        </div>
-                        <div class="container-button">
-                            <button><a asp-controller="Produto" asp-action="Produto">Visualizar</a></button>
-                            <i class="fas fa-trash"></i>
-                        </div>
-                    </div>
-                </div>
+                }
             </div>
         </div>
     </div>
-
-    @foreach (var produto in Model)
-    {
-        <div>
-            <h4>@produto.NomePro</h4>
-            <img src="@produto.ImgUrlPro" alt="Imagem do Produto" />
-            <p>Preço: @produto.PrecoPro</p>
-
-            
-
-            <form asp-action="RemoverFavorito" method="post">
-                <input type="hidden" name="Id" value="@produto.Id" />
-                <button type="submit">Remover dos Favoritos</button>
-            </form>
-        </div>
-    }
 </body>

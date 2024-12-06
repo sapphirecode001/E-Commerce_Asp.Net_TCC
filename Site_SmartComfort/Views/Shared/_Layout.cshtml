@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@inject Site_SmartComfort.Libraries.Login.LoginUsuario _LoginUsuario
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -14,8 +16,8 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" id="cabecalho">
 
-            <div class="pesqui">
-                <form asp-controller="Produto" asp-action="BuscarProduto" method="get" class="form-inline" style="display: flex;">
+            <div class="pesqui" style="">
+                <form asp-controller="Produto" asp-action="BuscarProduto" method="get" class="form-inline" style="display: flex; width: 100%;">
                     <input type="text" name="termo" placeholder="Busque na Smart Comfort..." aria-label="Buscar">
                     <button type="submit" class="btnpesq">
                         <img src="~/img/icons8-pesquisar-100.png" alt="Pesquisar">
@@ -33,7 +35,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item"> 
+                        <li class="nav-item">
                             <a class="nav-link text-dark" href="#produtos">Produtos</a>
                         </li>
                         <li class="nav-item">
@@ -45,16 +47,31 @@
                     </ul>
 
                     <div class="d-flex">
-                        @if (TempData["EmailUsu"] != null)
+                        @if (_LoginUsuario.GetUsuario() != null)
                         {
-                            <a asp-area="" asp-controller="Usuario" asp-action="PainelUsuario">
-                                <img class="icone" src="~/img/login.png" alt="Perfil" />
-                            </a>
+                            @if (_LoginUsuario.GetUsuario().IdPF != null)
+                            {
+                                <a asp-area="" asp-controller="Usuario" asp-action="PainelUsuario" class="d-flex align-items-center text-decoration-none">
+                                    <img class="icone" src="~/img/login.png" alt="Perfil" />
+                                    <p class="ms-2 mb-0 text-dark">@_LoginUsuario.GetUsuario().NomeCompleto</p>
+                                </a>
+                            }
+
+                            @if (_LoginUsuario.GetUsuario().IdPJ != null)
+                            {
+                                <a asp-area="" asp-controller="Usuario" asp-action="PainelUsuario" class="d-flex align-items-center text-decoration-none">
+                                    <img class="icone" src="~/img/login.png" alt="Perfil" />
+                                    <div style="display: flex;" class="ms-2">
+                                        <p class="mb-0 text-dark">@_LoginUsuario.GetUsuario().RazaoSocial</p>
+                                    </div>
+                                </a>
+                            }
                         }
                         else
                         {
-                            <a asp-area="" asp-controller="Usuario" asp-action="Login">
+                            <a asp-area="" asp-controller="Usuario" asp-action="Login" class="d-flex align-items-center text-decoration-none">
                                 <img class="icone" src="~/img/login.png" alt="Login" />
+                                <p class="ms-2 mb-0 text-dark">Login</p>
                             </a>
                         }
 

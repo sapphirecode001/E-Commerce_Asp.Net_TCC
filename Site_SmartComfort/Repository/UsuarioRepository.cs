@@ -66,23 +66,60 @@ namespace Site_SmartComfort.Repository
                 }
             }
 
-            // Retorna null se nenhum usuário for encontrado
             return null;
-        }
-
-        public IEnumerable<Usuario> ObterTodosUsuarios()
-        {
-            throw new NotImplementedException();
         }
 
         public Usuario ObterUsuario(int Id)
         {
-            throw new NotImplementedException();
-        }
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                conexao.Open();
 
-        public bool UsuarioExiste(string EmailUsu)
-        {
-            throw new NotImplementedException();
+                // Chama a stored procedure ou executa a query para obter os dados do usuário
+                var query = "SELECT \r\n    u.IdUsu, \r\n  u.TipoUsu,  u.EmailUsu, \r\n    u.SenhaUsu, \r\n    u.TelefoneUsu1, \r\n    u.TelefoneUsu2, \r\n    u.DataCadUsu, \r\n    p.IdPF, \r\n    p.Cpf, \r\n    p.NomeCompleto\r\nFROM tbPF AS p\r\nJOIN tbUsuario AS u ON p.IdUsu = u.IdUsu\r\nWHERE u.IdUsu = @IdUsu;"; 
+
+                MySqlCommand cmd = new MySqlCommand(query, conexao);
+                cmd.Parameters.Add("@IdUsu", MySqlDbType.Int32).Value = Id;  // Passa o IdUsu como parâmetro
+
+                using (MySqlDataReader dr = cmd.ExecuteReader(CommandBehavior.CloseConnection))
+                {
+                    if (dr.Read()) // Verifica se encontrou o usuário
+                    {
+                        Usuario usuario = new Usuario
+                        {
+                            IdUsu = Convert.ToInt32(dr["IdUsu"]),
+                            EmailUsu = Convert.ToString(dr["EmailUsu"]),
+                            SenhaUsu = Convert.ToString(dr["SenhaUsu"]),
+                            TelefoneUsu1 = Convert.ToInt64(dr["TelefoneUsu1"]),
+                            TelefoneUsu2 = dr.IsDBNull(dr.GetOrdinal("TelefoneUsu2")) ? (long?)null : Convert.ToInt64(dr["TelefoneUsu2"]),
+                            DataCadUsu = Convert.ToString(dr["DataCadUsu"])
+                        };
+
+                        // Verifica o tipo de usuário (PF ou PJ)
+                        string tipoUsuario = Convert.ToString(dr["TipoUsu"]);
+
+                        if (tipoUsuario == "PF")
+                        {
+                            usuario.IdPF = dr.IsDBNull(dr.GetOrdinal("IdPF")) ? (int?)null : Convert.ToInt32(dr["IdPF"]);
+                            usuario.Cpf = dr.IsDBNull(dr.GetOrdinal("Cpf")) ? (long?)null : Convert.ToInt64(dr["Cpf"]);
+                            usuario.NomeCompleto = dr.IsDBNull(dr.GetOrdinal("NomeCompleto")) ? null : Convert.ToString(dr["NomeCompleto"]);
+                        }
+                        else if (tipoUsuario == "PJ")
+                        {
+                            usuario.IdPJ = dr.IsDBNull(dr.GetOrdinal("IdPJ")) ? (int?)null : Convert.ToInt32(dr["IdPJ"]);
+                            usuario.Cnpj = dr.IsDBNull(dr.GetOrdinal("Cnpj")) ? (long?)null : Convert.ToInt64(dr["Cnpj"]);
+                            usuario.RazaoSocial = dr.IsDBNull(dr.GetOrdinal("RazaoSocial")) ? null : Convert.ToString(dr["RazaoSocial"]);
+                            usuario.NomeResponsavel = dr.IsDBNull(dr.GetOrdinal("NomeResponsavel")) ? null : Convert.ToString(dr["NomeResponsavel"]);
+                        }
+
+                        return usuario; // Retorna o usuário encontrado
+                    }
+                    else
+                    {
+                        return null; // Caso não encontre, retorna null
+                    }
+                }
+            }
         }
 
         public void CadastrarUsuarioPF(Usuario usuario)
@@ -159,6 +196,16 @@ namespace Site_SmartComfort.Repository
                 cmd.ExecuteNonQuery();
                 conexao.Close();
             }
+        }
+
+        public bool UsuarioExiste(string EmailUsu)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Usuario> ObterTodosUsuarios()
+        {
+            throw new NotImplementedException();
         }
     }
 }

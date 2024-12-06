@@ -84,15 +84,30 @@ namespace Site_SmartComfort.Controllers
         [UsuarioAutorizacao]
         public IActionResult PainelUsuario()
         {
-            return View();
+            return View();  // Passa o usuário para a view
         }
 
         [HttpPost]
-        [UsuarioAutorizacao]
         public IActionResult AlterarDados(Usuario usuario)
         {
+            // Obtém o usuário autenticado
+            var usuarioAutenticado = _loginUsuario.GetUsuario();
+
+            // Atribui os valores do usuário autenticado ao objeto que veio do formulário
+            usuario.IdPF = usuarioAutenticado.IdPF;
+            usuario.IdPJ = usuarioAutenticado.IdPJ;
+            usuario.IdUsu = usuarioAutenticado.IdUsu;
+                
             _usuarioRepository.AtualizarUsuario(usuario);
-            return RedirectToAction(nameof(PainelUsuario));
+
+            var usuarioAtualizado = _usuarioRepository.ObterUsuario(usuario.IdUsu);
+
+            _loginUsuario.Logout();
+            _loginUsuario.Login(usuarioAtualizado);
+            
+
+            return View("PainelUsuario", usuarioAtualizado);
+
         }
 
         [UsuarioAutorizacao]
