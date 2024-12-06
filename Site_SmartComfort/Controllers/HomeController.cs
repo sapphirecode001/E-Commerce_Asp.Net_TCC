@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Site_SmartComfort.CarrinhoCompra;
+using Site_SmartComfort.Libraries.Filtro;
 using Site_SmartComfort.Libraries.Login;
 using Site_SmartComfort.Models;
 using Site_SmartComfort.Repository.Contract;
@@ -15,10 +16,11 @@ namespace Site_SmartComfort.Controllers
         private CookieCarrinhoCompra _cookieCarrinhoCompra;
         private IPedidoRepository _pedidoRepository;
         private LoginUsuario _loginUsuario;
+        private IFavoritoRepository _favoritoRepository;
 
         // Combine os dois construtores em um único
         public HomeController(ILogger<HomeController> logger, IProdutoRepository produtoRepository,
-            IPedidoRepository pedidoRepository, CookieCarrinhoCompra cookieCarrinhoCompra, IItemRepository itemRepository, LoginUsuario loginUsuario)
+            IPedidoRepository pedidoRepository, CookieCarrinhoCompra cookieCarrinhoCompra, IItemRepository itemRepository, LoginUsuario loginUsuario, IFavoritoRepository favoritoRepository)
         {
             _logger = logger;
             _produtoRepository = produtoRepository;
@@ -26,6 +28,7 @@ namespace Site_SmartComfort.Controllers
             _cookieCarrinhoCompra = cookieCarrinhoCompra;
             _itemRepository = itemRepository;
             _loginUsuario = loginUsuario;
+            _favoritoRepository = favoritoRepository;
         }
 
         public IActionResult Index()
@@ -47,11 +50,13 @@ namespace Site_SmartComfort.Controllers
             return View();
         }
 
+        [UsuarioAutorizacao]
         public IActionResult Carrinho()
         {
             return View(_cookieCarrinhoCompra.Consultar());
         }
 
+        [UsuarioAutorizacao]
         public IActionResult AdicionarItem(int Id)
         {
             Produto produto = _produtoRepository.ObterProduto(Id);
@@ -80,12 +85,14 @@ namespace Site_SmartComfort.Controllers
             }
         }
 
+        [UsuarioAutorizacao]
         public IActionResult RemoverItem(int Id)
         {
             _cookieCarrinhoCompra.Remover(new Produto() { Id = Id });
             return RedirectToAction(nameof(Carrinho));
         }
 
+        [UsuarioAutorizacao]
         public IActionResult SalvarCarrinho(Pedido pedido)
         {
             List<Produto> carrinho = _cookieCarrinhoCompra.Consultar();
@@ -112,6 +119,7 @@ namespace Site_SmartComfort.Controllers
             return RedirectToAction("confEmp");
         }
 
+        [UsuarioAutorizacao]
         public IActionResult confEmp()
         {
             return View();
@@ -121,6 +129,63 @@ namespace Site_SmartComfort.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        [UsuarioAutorizacao]
+        public IActionResult AdicionarFavorito(int Id)
+        {
+            var usuario = _loginUsuario.GetUsuario();
+
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Usuario");
+            }
+
+            Produto produto = _produtoRepository.ObterProduto(Id);
+
+            if (produto == null)
+            {
+                return View("NaoExisteItem");
+            }
+
+            _favoritoRepository.AdicionarFavorito(usuario.IdUsu, Id);
+
+            TempData["MensagemSucesso"] = "Produto adicionado aos favoritos com sucesso!";
+            return RedirectToAction(nameof(Index));
+        }
+
+        [UsuarioAutorizacao]
+        public IActionResult RemoverFavorito(int Id)
+        {
+            var usuario = _loginUsuario.GetUsuario();
+
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Usuario");
+            }
+
+            _favoritoRepository.RemoverFavorito(usuario.IdUsu, Id);
+
+            TempData["MensagemSucesso"] = "Produto removido dos favoritos com sucesso!";
+            return RedirectToAction(nameof(Index));
+        }
+
+        [UsuarioAutorizacao]
+        public IActionResult Favoritos()
+        {
+            var usuario = _loginUsuario.GetUsuario();
+
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Usuario");
+            }
+
+            var favoritos = _favoritoRepository.ObterFavoritosDoUsuario(usuario.IdUsu);
+
+            // Carregar detalhes dos produtos associados
+            var produtosFavoritos = favoritos.Select(f => _produtoRepository.ObterProduto(f.Id)).ToList();
+
+            return View(produtosFavoritos);
         }
     }
 }

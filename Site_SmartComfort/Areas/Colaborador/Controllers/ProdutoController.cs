@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Site_SmartComfort.GerenciaArquivos;
+using Site_SmartComfort.Libraries.Filtro;
 using Site_SmartComfort.Models;
 using Site_SmartComfort.Repository.Contract;
 
@@ -26,6 +27,7 @@ namespace Site_SmartComfort.Areas.Colaborador.Controllers
             return View(_produtoRepository.ObterTodosProdutos());
         }
 
+
         public IActionResult BuscarProduto(string termo)
         {
             if (string.IsNullOrWhiteSpace(termo))
@@ -50,14 +52,16 @@ namespace Site_SmartComfort.Areas.Colaborador.Controllers
             return View(produto); // Retorna o produto para a view
         }
 
+        [FuncionarioAutorizacao]
         [HttpGet]
         public IActionResult CadProduto()
         {
-
             var listaCategoria = _categoriaRepository.ObterTodosCategorias();
             ViewBag.ListaCategorias = new SelectList(listaCategoria, "IdCategoria", "NomeCategoria");
             return View();
         }
+
+        [FuncionarioAutorizacao]
         [HttpPost]
         public IActionResult CadProduto(Produto produto, IFormFile file)
         {
@@ -71,6 +75,8 @@ namespace Site_SmartComfort.Areas.Colaborador.Controllers
             _produtoRepository.CadastrarProduto(produto);
             return RedirectToAction(nameof(Index)); // Redireciona para a listagem de produtos
         }
+
+        [FuncionarioAutorizacao]
         public IActionResult EditarProduto(int id)
         {
             // Obtém o produto pelo Id
@@ -91,6 +97,7 @@ namespace Site_SmartComfort.Areas.Colaborador.Controllers
             return PartialView("_CarrosselProdutos", produtos); // Usando uma Partial View
         }
 
+        [FuncionarioAutorizacao]
         [HttpPost]
         public IActionResult editarProduto(Produto produto)
         {
@@ -98,6 +105,7 @@ namespace Site_SmartComfort.Areas.Colaborador.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [FuncionarioAutorizacao]
         public IActionResult Delete(int id)
         {
             _produtoRepository.Excluir(id);

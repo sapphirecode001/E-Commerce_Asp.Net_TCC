@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Site_SmartComfort.Libraries.Filtro;
 using Site_SmartComfort.Libraries.Login;
 using Site_SmartComfort.Models;
 using Site_SmartComfort.Repository.Contract;
@@ -42,11 +43,6 @@ namespace Site_SmartComfort.Controllers
             return RedirectToAction(nameof(Login));
         }
 
-        public IActionResult CarrinhoUsuario()
-        {
-            return View();
-        }
-
         public IActionResult Login()
         {
             return View();
@@ -84,18 +80,22 @@ namespace Site_SmartComfort.Controllers
 
         // Ação de Painel de Usuário - Exibe o painel do usuário logado
         [HttpGet]
+
+        [UsuarioAutorizacao]
         public IActionResult PainelUsuario()
         {
             return View();
         }
 
         [HttpPost]
+        [UsuarioAutorizacao]
         public IActionResult AlterarDados(Usuario usuario)
         {
             _usuarioRepository.AtualizarUsuario(usuario);
             return RedirectToAction(nameof(PainelUsuario));
         }
 
+        [UsuarioAutorizacao]
         public IActionResult LogoutUsuario()
         {
             // Limpa a sessão do usuário

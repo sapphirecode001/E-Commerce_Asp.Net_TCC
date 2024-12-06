@@ -86,11 +86,16 @@
                             {
                                 <div class="col-lg-4 d-flex flex-column align-items-center">
                                     <div class="fundo_solo">
-                                        <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                        <div class="div-cora"><a><i class="far fa-heart border-heart" onclick="toggleHeart(this)"></i></a></div>
+                                        <div class="div-img-carrossel">
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id" class="produto_click">
+                                                <img class="icone_produto_solo" src="/img/produtos/camera.png" alt="aaaaaa">
+                                            </a>
+                                        </div>
                                         <h3 class="desc">@produto.NomePro</h3>
                                         <h1 class="preco">R$ @produto.PrecoPro</h1>
                                         <button class="infos">
-                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Mais Informações</a>
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Adicionar Ao Carrinho</a>
                                         </button>
                                         @using (Html.BeginForm("AdicionarItem", "Home", FormMethod.Post))
                                         {
@@ -98,6 +103,11 @@
                                             <input type="hidden" name="quantidade" value="1">
                                             <button type="submit" class="btn btn-default btn-acao-primario">Adicionar</button>
                                         }
+
+                                        <form asp-action="AdicionarFavorito" method="post">
+                                            <input type="hidden" name="Id" value="@produto.Id" />
+                                            <button type="submit">Adicionar aos Favoritos</button>
+                                        </form>
                                     </div>
                                 </div>
                             }
@@ -127,11 +137,15 @@
                             {
                                 <div class="col-lg-4 d-flex flex-column align-items-center">
                                     <div class="fundo_solo">
-                                        <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                        <div>
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">
+                                                <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                            </a>
+                                        </div>
                                         <h3 class="desc">@produto.NomePro</h3>
                                         <h1 class="preco">R$ @produto.PrecoPro</h1>
                                         <button class="infos">
-                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Mais Informações</a>
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Adicionar Ao Carrinho</a>
                                         </button>
                                     </div>
                                 </div>
@@ -164,11 +178,15 @@
                             {
                                 <div class="col-lg-4 d-flex flex-column align-items-center">
                                     <div class="fundo_solo">
-                                        <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                        <div>
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">
+                                                <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                            </a>
+                                        </div>
                                         <h3 class="desc">@produto.NomePro</h3>
                                         <h1 class="preco">R$ @produto.PrecoPro</h1>
                                         <button class="infos">
-                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Mais Informações</a>
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Adicionar Ao Carrinho</a>
                                         </button>
                                     </div>
                                 </div>
@@ -200,11 +218,15 @@
                             {
                                 <div class="col-lg-4 d-flex flex-column align-items-center">
                                     <div class="fundo_solo">
-                                        <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                        <div>
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">
+                                                <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                            </a>
+                                        </div>
                                         <h3 class="desc">@produto.NomePro</h3>
                                         <h1 class="preco">R$ @produto.PrecoPro</h1>
                                         <button class="infos">
-                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Mais Informações</a>
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Adicionar Ao Carrinho</a>
                                         </button>
                                     </div>
                                 </div>
@@ -236,11 +258,15 @@
                             {
                                 <div class="col-lg-4 d-flex flex-column align-items-center">
                                     <div class="fundo_solo">
-                                        <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                        <div>
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">
+                                            <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="@produto.NomePro">
+                                             </a>
+                                        </div>
                                         <h3 class="desc">@produto.NomePro</h3>
                                         <h1 class="preco">R$ @produto.PrecoPro</h1>
                                         <button class="infos">
-                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Mais Informações</a>
+                                            <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id">Adicionar Ao Carrinho</a>
                                         </button>
                                     </div>
                                 </div>

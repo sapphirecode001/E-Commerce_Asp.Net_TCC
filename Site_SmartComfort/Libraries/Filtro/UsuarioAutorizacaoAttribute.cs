@@ -15,7 +15,7 @@ namespace Site_SmartComfort.Libraries.Filtro
             Usuario usuario = _loginUsuario.GetUsuario();
             if (usuario == null)
             {
-                context.Result = new RedirectToActionResult("Login", "Home", null);
+                context.Result = new RedirectToActionResult("Login", "Usuario", null);
             }
         }
     }

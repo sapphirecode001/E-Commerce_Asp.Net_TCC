@@ -7,7 +7,6 @@ namespace Site_SmartComfort.Areas.Colaborador.Controllers
     [Area("Colaborador")]
     public class HomeController : Controller
     {
-
         private IFuncionarioRepository _repositoryFuncionario;
         private LoginFuncionario _loginFuncionario;
 
@@ -40,6 +39,8 @@ namespace Site_SmartComfort.Areas.Colaborador.Controllers
                 return View();
             }
         }
+
+        [FuncionarioAutorizacao]
         public IActionResult Painel()
         {
             ViewBag.Nome = _loginFuncionario.GetFuncionario().NomeFunc;
@@ -47,6 +48,7 @@ namespace Site_SmartComfort.Areas.Colaborador.Controllers
             ViewBag.Email = _loginFuncionario.GetFuncionario().EmailFunc;
             return View();
         }
+
         [FuncionarioAutorizacao]
         [ValidateHttpReferer]
         public IActionResult Logout()

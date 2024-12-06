@@ -45,26 +45,5 @@ namespace Site_SmartComfort.Repository
                 conexao.Close();
             }
         }
-
-
-        public void Atualizar(Pedido pedido)
-        {
-            throw new NotImplementedException();
-        }
-
-
-        public void Excluir(int Id)
-        {
-            throw new NotImplementedException();
-        }
-        public Pedido ObterPedidos(int Id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Pedido> ObterTodosPedidos()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

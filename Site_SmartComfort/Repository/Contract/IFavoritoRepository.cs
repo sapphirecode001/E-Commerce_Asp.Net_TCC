@@ -7,6 +7,6 @@ namespace Site_SmartComfort.Repository.Contract
         void AdicionarFavorito(int usuarioId, int produtoId);
         void RemoverFavorito(int usuarioId, int produtoId);
         bool VerificarFavorito(int usuarioId, int produtoId);
-        IEnumerable<Favorito> ObterFavoritosDoUsuario(int usuarioId);
+        IEnumerable<Favoritos> ObterFavoritosDoUsuario(int usuarioId);
     }
 }

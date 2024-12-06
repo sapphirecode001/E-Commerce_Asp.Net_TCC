@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     color: black;
@@ -60,8 +60,7 @@ body {
         font-size: 12px;
         color: #4D81DE;
         margin-bottom: 30px;
-        display: flex;
-        justify-content: center;
+        margin-left: 170px;
         font-weight: bold;
         text-decoration: none;
     }
@@ -108,8 +107,8 @@ form div {
     color: #0252bb;
     font-size: 14px;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
+    margin-top: 10px;
+    margin-left: 130px;
 }
 
 .login-section a:hover {

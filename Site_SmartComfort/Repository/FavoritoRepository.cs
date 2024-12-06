@@ -63,9 +63,9 @@ namespace Site_SmartComfort.Repository
         }
 
         // Obtém todos os favoritos do usuário
-        public IEnumerable<Favorito> ObterFavoritosDoUsuario(int usuarioId)
+        public IEnumerable<Favoritos> ObterFavoritosDoUsuario(int usuarioId)
         {
-            List<Favorito> favoritos = new List<Favorito>();
+            List<Favoritos> favoritos = new List<Favoritos>();
 
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
@@ -79,7 +79,7 @@ namespace Site_SmartComfort.Repository
                     {
                         while (reader.Read())
                         {
-                            var favorito = new Favorito
+                            var favorito = new Favoritos
                             {
                                 IdFav = Convert.ToInt32(reader["IdFav"]),
                                 IdUsu = Convert.ToInt32(reader["IdUsu"]),

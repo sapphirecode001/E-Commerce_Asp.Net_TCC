@@ -70,4 +70,20 @@
             </div>
         </div>
     </div>
+
+    @foreach (var produto in Model)
+    {
+        <div>
+            <h4>@produto.NomePro</h4>
+            <img src="@produto.ImgUrlPro" alt="Imagem do Produto" />
+            <p>Preço: @produto.PrecoPro</p>
+
+            
+
+            <form asp-action="RemoverFavorito" method="post">
+                <input type="hidden" name="Id" value="@produto.Id" />
+                <button type="submit">Remover dos Favoritos</button>
+            </form>
+        </div>
+    }
 </body>
