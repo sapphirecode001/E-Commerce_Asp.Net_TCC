@@ -74,7 +74,7 @@
             </div>
 
         </div>
-        <h1 class="titulo_produto" id="cameras">Câmeras</h1>
+        <h1 class="titulo_produto" id="cameras">CÂMERAS</h1>
         <div id="destaqueCarouseCameras" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 @for (int i = 0; i < Model.Cameras.Count(); i += 3)
@@ -89,7 +89,7 @@
                                         <div class="div-cora"><a></a></div>
                                         <div class="div-img-carrossel">
                                             <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id" class="produto_click">
-                                                <img class="icone_produto_solo" src="/img/produtos/camera.png" alt="">
+                                                <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="">
                                             </a>
                                         </div>
                                         <h3 class="desc">@produto.NomePro</h3>
@@ -98,7 +98,7 @@
                                         {
                                             <input type="hidden" name="id" value=@produto.Id>
                                             <input type="hidden" name="quantidade" value="1">
-                                            <button type="submit" class="infos" id="btn" style="width: 200px">Carrinho</button>
+                                            <button type="submit" class="infos" id="btn" style="width: 200px">Adicionar Carrinho</button>
                                         }
                                         <form asp-action="AdicionarFavorito" method="post">
                                             <input type="hidden" name="Id" value="@produto.Id" />
@@ -121,7 +121,7 @@
             </a>
         </div>
 
-        <h1 class="titulo_produto" id="roteadores">Roteadores</h1>
+        <h1 class="titulo_produto" id="roteadores">ROTEADORES</h1>
         <div id="destaqueCarouseRoteadores" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 @for (int i = 0; i < Model.Roteadores.Count(); i += 3)
@@ -136,7 +136,7 @@
                                         <div class="div-cora"><a></a></div>
                                         <div class="div-img-carrossel">
                                             <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id" class="produto_click">
-                                                <img class="icone_produto_solo" src="/img/produtos/camera.png" alt="">
+                                                <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="">
                                             </a>
                                         </div>
                                         <h3 class="desc">@produto.NomePro</h3>
@@ -145,7 +145,7 @@
                                         {
                                             <input type="hidden" name="id" value=@produto.Id>
                                             <input type="hidden" name="quantidade" value="1">
-                                            <button type="submit" class="infos" id="btn" style="width: 200px">Adicionar ao Carrinho</button>
+                                            <button type="submit" class="infos" id="btn" style="width: 200px">Adicionar Carrinho</button>
                                         }
                                         <form asp-action="AdicionarFavorito" method="post">
                                             <input type="hidden" name="Id" value="@produto.Id" />
@@ -175,7 +175,7 @@
             <div class="carousel-inner">
                 @for (int i = 0; i < Model.Lampadas.Count(); i += 3)
                 {
-                    var produtosParaSlide = Model.Roteadores.Skip(i).Take(3);
+                    var produtosParaSlide = Model.Lampadas.Skip(i).Take(3);
                     <div class="carousel-item @(i == 0 ? "active" : "")">
                         <div class="row">
                             @foreach (var produto in produtosParaSlide)
@@ -185,7 +185,7 @@
                                         <div class="div-cora"><a></a></div>
                                         <div class="div-img-carrossel">
                                             <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id" class="produto_click">
-                                                <img class="icone_produto_solo" src="/img/produtos/camera.png" alt="">
+                                                <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="">
                                             </a>
                                         </div>
                                         <h3 class="desc">@produto.NomePro</h3>
@@ -194,7 +194,7 @@
                                         {
                                             <input type="hidden" name="id" value=@produto.Id>
                                             <input type="hidden" name="quantidade" value="1">
-                                            <button type="submit" class="infos" id="btn" style="width: 200px">Adicionar ao Carrinho</button>
+                                            <button type="submit" class="infos" id="btn" style="width: 250px">Adicionar Carrinho</button>
                                         }
                                         <form asp-action="AdicionarFavorito" method="post">
                                             <input type="hidden" name="Id" value="@produto.Id" />
@@ -233,7 +233,7 @@
                                         <div class="div-cora"><a></a></div>
                                         <div class="div-img-carrossel">
                                             <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id" class="produto_click">
-                                                <img class="icone_produto_solo" src="/img/produtos/camera.png" alt="">
+                                                <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="">
                                             </a>
                                         </div>
                                         <h3 class="desc">@produto.NomePro</h3>
@@ -242,7 +242,7 @@
                                         {
                                             <input type="hidden" name="id" value=@produto.Id>
                                             <input type="hidden" name="quantidade" value="1">
-                                            <button type="submit" class="infos" id="btn" style="width: 200px">Adicionar ao Carrinho</button>
+                                            <button type="submit" class="infos" id="btn" style="width: 200px">Adicionar Carrinho</button>
                                         }
                                         <form asp-action="AdicionarFavorito" method="post">
                                             <input type="hidden" name="Id" value="@produto.Id" />
@@ -281,7 +281,7 @@
                                         <div class="div-cora"><a></a></div>
                                         <div class="div-img-carrossel">
                                             <a asp-controller="Produto" asp-action="ProdutoClick" asp-route-id="@produto.Id" class="produto_click">
-                                                <img class="icone_produto_solo" src="/img/produtos/camera.png" alt="">
+                                                <img class="icone_produto_solo" src="@produto.ImgUrlPro" alt="">
                                             </a>
                                         </div>
                                         <h3 class="desc">@produto.NomePro</h3>
@@ -290,7 +290,7 @@
                                         {
                                             <input type="hidden" name="id" value=@produto.Id>
                                             <input type="hidden" name="quantidade" value="1">
-                                            <button type="submit" class="infos" id="btn" style="width: 200px">Adicionar ao Carrinho</button>
+                                            <button type="submit" class="infos" id="btn" style="width: 200px">Adicionar Carrinho</button>
                                         }
                                         <form asp-action="AdicionarFavorito" method="post">
                                             <input type="hidden" name="Id" value="@produto.Id" />

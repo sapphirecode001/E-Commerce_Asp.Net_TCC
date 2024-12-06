@@ -14,6 +14,39 @@ const cartaoBtn = document.getElementById("cartaoBtn");
 const pixBtn = document.getElementById("pixBtn");
 const blurBackground = document.getElementById("blurBackground");
 
+
+const cepInput = document.getElementById("cep");
+const cidadeInput = document.getElementById("cidade");
+const bairroInput = document.getElementById("bairro");
+const numeroInput = document.getElementById("numero");
+
+cepInput.addEventListener("blur", function () {
+    const cep = cepInput.value.replace(/\D/g, '');  // Remove caracteres não numéricos
+
+    if (cep.length === 8) {  // Verifica se o CEP tem 8 caracteres
+        fetch(`https://viacep.com.br/ws/${cep}/json/`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.erro) {
+                    alert("CEP não encontrado.");
+                } else {
+                    // Preenchendo os campos com as informações da API
+                    cidadeInput.value = data.localidade;
+                    bairroInput.value = data.bairro;
+                    document.getElementById("logradouro").value = data.logradouro;  // Preenche o logradouro
+                    numeroInput.focus();
+                }
+            })
+            .catch(error => {
+                console.error("Erro ao buscar CEP:", error);
+                alert("Ocorreu um erro ao buscar o CEP.");
+            });
+    } else {
+        alert("CEP inválido. Verifique o número e tente novamente.");
+    }
+});
+
+
 abrirModalBtn.addEventListener("click", () => {
     modal1.style.display = "flex";
     blurBackground.style.display = "block";

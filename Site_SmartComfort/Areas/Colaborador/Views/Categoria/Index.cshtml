@@ -31,7 +31,6 @@
                         @Html.DisplayFor(modelItem => item.NomeCategoria)
                     </td>
                     <td>
-                        @Html.ActionLink("Editar", "editarCategoria", new { id = item.IdCategoria }) |
                         @Html.ActionLink("Excluir", "Excluir", new { id = item.IdCategoria }, new { onclick = "return confirm ('Deseja realmente Excluir este item?');" })
                     </td>
                 </tr>

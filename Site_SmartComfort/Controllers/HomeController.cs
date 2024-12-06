@@ -39,7 +39,7 @@ namespace Site_SmartComfort.Controllers
                 Roteadores = _produtoRepository.ObterProdutosPorCategoria(2), // Produtos de roteadores
                 Lampadas = _produtoRepository.ObterProdutosPorCategoria(3), // Produtos de câmeras
                 Porteiro = _produtoRepository.ObterProdutosPorCategoria(4), // Produtos de roteadores
-                Fechaduras = _produtoRepository.ObterProdutosPorCategoria(4) // Produtos de roteadores
+                Fechaduras = _produtoRepository.ObterProdutosPorCategoria(5) // Produtos de roteadores
             };
 
             return View(viewModel); // Retorna a View com o modelo completo
